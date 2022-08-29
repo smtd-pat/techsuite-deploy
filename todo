@@ -1,0 +1,4 @@
+Default dock preferences (https://techion.com.au/blog/2015/4/28/dock-master)
+Prevent modication of system-wide preferences
+Hide wifi from menubar (https://community.jamf.com/t5/jamf-pro/hiding-the-wifi-icon-in-the-menu-bar/m-p/148181) (https://github.com/gmarnin/Profiles/blob/master/Airport%20Menubar%20Disable.mobileconfig)
+Install logic packs
