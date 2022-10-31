@@ -11,7 +11,7 @@ help:
 
 ##  clean - Clean up temporary working directories
 clean:
-	rm -f ./outset*.pkg
+	rm -f ./${PKGTITLE}*.pkg
 	rm -f ./pkgroot/usr/local/outset/*/*.pyc
 
 ##  pkg - Create a package using pkgbuild
