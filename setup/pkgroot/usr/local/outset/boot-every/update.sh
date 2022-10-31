@@ -1,10 +1,10 @@
 #!/bin/bash
 
-cd /Users/Shared/.ts_deploy/techsuite-deploy || exit 1
+cd "/Library/Application Support/Tech Suite Deploy/techsuite-deploy" || exit 1
 if [[ `git status --porcelain` ]]; then
   git pull
   cd setup || exit 1
   make pkg
   installer -pkg techsuite-deploy-*.pkg -target /
-  profiles -I -F "/Users/Shared/.ts_deploy/techsuite-deploy/Tech Suite.mobileconfig"
+  profiles -I -F "/Library/Application Support/Tech Suite Deploy/techsuite-deploy/Tech Suite.mobileconfig"
 fi

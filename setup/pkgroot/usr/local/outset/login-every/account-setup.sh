@@ -17,7 +17,7 @@ if [ ! -f /Users/Shared/.cr_flag ]; then
         echo "" > $flag
     fi
 
-    yes | cp "/Users/Shared/.ts_deploy/.docks/control-room/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
+    yes | cp "/Library/Application Support/Tech Suite Deploy/docks/control-room/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
 
     open -gja "XMon"
     open -gja "WSControlApp"
@@ -30,7 +30,7 @@ elif [ ! -f /Users/Shared/.davis_flag ]; then
         echo "" > $flag
     fi
 
-    yes | cp "/Users/Shared/.ts_deploy/.docks/davis/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
+    yes | cp "/Library/Application Support/Tech Suite Deploy/docks/davis/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
 
 elif [ ! -f /Users/Shared/.er_flag ]; then
 
@@ -40,7 +40,7 @@ elif [ ! -f /Users/Shared/.er_flag ]; then
         echo "" > $flag
     fi
 
-    yes | cp "/Users/Shared/.ts_deploy/.docks/edit-rooms/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
+    yes | cp "/Library/Application Support/Tech Suite Deploy/docks/edit-rooms/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
 
 elif [ ! -f /Users/Shared/.mtl_flag ]; then
 
@@ -49,6 +49,6 @@ elif [ ! -f /Users/Shared/.mtl_flag ]; then
         echo "" > $flag
     fi
 
-    yes | cp "/Users/Shared/.ts_deploy/.docks/mtl/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
+    yes | cp "/Library/Application Support/Tech Suite Deploy/docks/mtl/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
 
 fi

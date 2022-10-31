@@ -35,5 +35,5 @@ elif [ ! -f /Users/Shared/.mtl_flag ]; then
 
 fi
 
-cd /Users/Shared/.ts_deploy || exit 1
-git pull https://github.com/smtd-pat/techsuite-deploy
+cd "/Library/Application Support/Tech Suite Deploy" || exit 1
+git clone https://github.com/smtd-pat/techsuite-deploy
