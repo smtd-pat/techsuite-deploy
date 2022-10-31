@@ -20,18 +20,21 @@ if [ ! -f /Users/Shared/.cr_flag ]; then
 
     mkdir -p "/Users/Shared/Dante Presets/"
     mkdir -p "/Users/Shared/Pro Tools I:O Configuration/"
+    yes | cp "$RECEIPT_PATH/docks/control-room/com.apple.dock.plist" "/Library/Preferences/com.apple.dock.plist"
 
 elif [ ! -f /Users/Shared/.davis_flag ]; then
 
     mkdir -p "/Users/Shared/Dante Presets/"
+    yes | cp "$RECEIPT_PATH/docks/davis/com.apple.dock.plist" "/Library/Preferences/com.apple.dock.plist"
 
 elif [ ! -f /Users/Shared/.er_flag ]; then
 
     mkdir -p "/Users/Shared/Dante Presets/"
+    yes | cp "$RECEIPT_PATH/docks/edit-rooms/com.apple.dock.plist" "/Library/Preferences/com.apple.dock.plist"
 
 elif [ ! -f /Users/Shared/.mtl_flag ]; then
 
-    :
+    yes | cp "$RECEIPT_PATH/docks/mtl/com.apple.dock.plist" "/Library/Preferences/com.apple.dock.plist"
 
 fi
 
