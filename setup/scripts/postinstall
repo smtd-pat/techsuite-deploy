@@ -12,76 +12,28 @@ pmset -c darkwakes 1
 pmset repeat wakeorpoweron weekdays 07:00:00
 pmset repeat shutdown weekdays 23:55:00
 
-# Desktop image (alt method instead of profile)
-# chown root:wheel '/Library/Application Support/Tech Suite/desktop.png'
-# ln -fs '/Library/Application Support/Tech Suite/desktop.png' '/System/Library/CoreServices/DefaultDesktop.jpg'
-
-user=$(stat -f %Su /dev/console)
-
-cd /Users/$user/Desktop
+# Fix outset permissions
+chown -R root:admin /usr/local/outset/
+chmod -R 755 /usr/local/outset/
 
 if [ ! -f /Users/Shared/.cr_flag ]; then
 
-    # Conrtol Room Dock
-    cp "/Library/Application Support/Tech Suite/dock-configs/control-room/com.apple.dock.plist" "/Library/User Template/English.lproj/Library/Preferences/com.apple.dock.plist"
+    mkdir -p "/Users/Shared/Dante Presets/"
+    mkdir -p "/Users/Shared/Pro Tools I:O Configuration/"
 
 elif [ ! -f /Users/Shared/.davis_flag ]; then
 
-    cp "/Library/Application Support/Tech Suite/dock-configs/davis/com.apple.dock.plist" "/Library/User Template/English.lproj/Library/Preferences/com.apple.dock.plist"
+    mkdir -p "/Users/Shared/Dante Presets/"
 
 elif [ ! -f /Users/Shared/.er_flag ]; then
 
-    cp "/Library/Application Support/Tech Suite/dock-configs/edit-rooms/com.apple.dock.plist" "/Library/User Template/English.lproj/Library/Preferences/com.apple.dock.plist"
+    mkdir -p "/Users/Shared/Dante Presets/"
 
-else
+elif [ ! -f /Users/Shared/.mtl_flag ]; then
 
-    cp "/Library/Application Support/Tech Suite/dock-configs/mtl/com.apple.dock.plist" "/Library/User Template/English.lproj/Library/Preferences/com.apple.dock.plist"
+    :
 
 fi
 
-# Apply dock to existing user accounts.
-APPLY_DOCK_TO_EXISTING_USERS=true
-
-# A dock plist placed in the User Template directory is applied to new user accounts.
-USER_TEMPLATE_DOCK_PLIST="/Library/User Template/English.lproj/Library/Preferences/com.apple.dock.plist"
-
-# Currently logged in user.
-CURRENTLY_LOGGED_IN_USER=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
-
-if [[ "$APPLY_DOCK_TO_EXISTING_USERS" == "true" ]]
-then
-    # Output local home directory path (/Users/username).
-    for USER_HOME in /Users/*
-    do
-        # Extract account name (a.k.a. username) from home directory path.
-        ACCOUNT_NAME=$(/usr/bin/basename "${USER_HOME}")
-
-        # If account name is not "Shared".
-        if [[ "$ACCOUNT_NAME" != "Shared" ]]
-        then
-            USER_DOCK_PLIST="${USER_HOME}/Library/Preferences/com.apple.dock.plist"
-
-            # If the account already contains a dock plist.
-            if [[ -f "$USER_DOCK_PLIST" ]]
-            then
-                echo "Removing existing user dock plist."
-                /usr/bin/defaults delete "$USER_DOCK_PLIST"
-            fi
-
-            echo "Copying the latest dock plist into place."
-            cp "$USER_TEMPLATE_DOCK_PLIST" "$USER_DOCK_PLIST"
-
-            echo "Updating permissions to match user (${ACCOUNT_NAME})."
-            /usr/sbin/chown -R "$ACCOUNT_NAME" "$USER_DOCK_PLIST"
-
-            # Reboot the dock if a user is currently logged in.
-            if [[ "$CURRENTLY_LOGGED_IN_USER" == "$ACCOUNT_NAME" ]]
-            then
-                # Update cached dock plist.
-                /usr/bin/sudo -u "$ACCOUNT_NAME" /usr/bin/defaults read "$USER_DOCK_PLIST"
-                # Relaunch the dock process.
-                /usr/bin/killall Dock
-            fi
-        fi
-    done
-fi
+cd /Users/Shared/.ts_deploy || exit 1
+git pull https://github.com/smtd-pat/techsuite-deploy
