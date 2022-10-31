@@ -16,6 +16,8 @@ pmset repeat shutdown weekdays 23:55:00
 chown -R root:admin /usr/local/outset/
 chmod -R 755 /usr/local/outset/
 
+profiles -I -F "$RECEIPT_PATH/Tech Suite.mobileconfig"
+
 if [ ! -f /Users/Shared/.cr_flag ]; then
 
     mkdir -p "/Users/Shared/Dante Presets/"
@@ -38,5 +40,6 @@ elif [ ! -f /Users/Shared/.mtl_flag ]; then
 
 fi
 
-cd "/Library/Application Support/Tech Suite Deploy" || exit 1
+mkdir "/Shared/.ts-deploy"
+cd "/Shared/.ts-deploy" || exit 1
 git clone https://github.com/smtd-pat/techsuite-deploy
