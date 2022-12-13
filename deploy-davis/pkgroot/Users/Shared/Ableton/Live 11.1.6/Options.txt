@@ -1,0 +1,4 @@
+-LicenseServer 
+-_DisableAutoUpdates
+-DefaultsBaseFolder=/tmp/AbletonData/%%USERNAME%%/
+-DatabaseDirectory=/Users/Shared/Ableton/Database/%%USERNAME%%/

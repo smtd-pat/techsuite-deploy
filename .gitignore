@@ -4,3 +4,4 @@ sample*
 *.dmg
 *.pyc
 outset.wiki
+.idea/
