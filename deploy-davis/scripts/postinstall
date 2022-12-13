@@ -16,5 +16,5 @@ pmset repeat shutdown weekdays 00:30:00
 chown -R root:admin /usr/local/outset/
 chmod -R 755 /usr/local/outset/
 
-profiles -I -F "$RECEIPT_PATH/Tech Suite.mobileconfig"
-profiles -I -F "$RECEIPT_PATH/Tech Suite Dock.mobileconfig"
+profiles -I -F "$RECEIPT_PATH/Tech Suite Davis Studio.mobileconfig"
+profiles -I -F "$RECEIPT_PATH/Tech Suite Davis Studio Dock.mobileconfig"
