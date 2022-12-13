@@ -11,8 +11,6 @@
 ## Not Implemented
 
 - Hide wifi menu (https://community.jamf.com/t5/jamf-pro/hiding-the-wifi-icon-in-the-menu-bar/m-p/148181)
-- Set default screensaver (drift)
-- Apply Tech Suite profile
 
 ## Requires
 
