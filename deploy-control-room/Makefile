@@ -16,6 +16,8 @@ clean:
 
 ##  pkg - Create a package using pkgbuild
 pkg: clean
+	chmod -R +x scripts
+	chmod -R 755 pkgroot/usr/local/outset
 	pkgbuild --root pkgroot --scripts scripts --identifier ${PKGID} --version ${PKGVERSION} --ownership recommended ./${PKGTITLE}-${PKGVERSION}.component.pkg
 	productbuild --identifier ${PKGID}.${PKGVERSION} --package ./${PKGTITLE}-${PKGVERSION}.component.pkg ./${PKGTITLE}-${PKGVERSION}.pkg
 	rm -f ./${PKGTITLE}-${PKGVERSION}.component.pkg

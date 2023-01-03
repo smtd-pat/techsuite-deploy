@@ -13,8 +13,8 @@ pmset repeat wakeorpoweron weekdays 07:00:00
 pmset repeat shutdown weekdays 00:30:00
 
 # Fix outset permissions
-chown -R root:admin /usr/local/outset/
-chmod -R 755 /usr/local/outset/
+chown -R root:admin /usr/local/outset
+chmod -R 755 /usr/local/outset
 
 # profiles -I -F "$RECEIPT_PATH/Tech Suite Edit Rooms.mobileconfig"
 # profiles -I -F "$RECEIPT_PATH/Tech Suite Edit Rooms Dock.mobileconfig"
