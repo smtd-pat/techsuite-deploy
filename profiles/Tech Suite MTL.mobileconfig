@@ -44,11 +44,9 @@
 			<key>PayloadType</key>
 			<string>com.apple.SetupAssistant.managed</string>
 			<key>PayloadUUID</key>
-			<string>9E009139-F206-4482-934F-3D5A8EF1ED94</string>
+			<string>4EFF8E32-A094-4E63-A8E8-B14EE56B5E67</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>SkipAccessibility</key>
-			<true/>
 			<key>SkipCloudSetup</key>
 			<true/>
 			<key>SkipPrivacySetup</key>
@@ -325,7 +323,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>666ABB6B-BE8F-42EB-93AD-8D05AC4E0238</string>
+	<string>5F91B92F-1BD0-4295-AFED-32E3D0B122D0</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
