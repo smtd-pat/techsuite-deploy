@@ -11,13 +11,18 @@ help:
 
 ##  clean - Clean up temporary working directories
 clean:
-	rm -f ./${PKGTITLE}*.pkg
-	rm -f ./pkgroot/usr/local/outset/*/*.pyc
+	rm -rf ./build
+
+##  build - Build file structure for package creation
+build: clean
+	cp . /build
+	rsync -a ../all ./build
 
 ##  pkg - Create a package using pkgbuild
-pkg: clean
-	chmod -R +x scripts
-	chmod -R 755 pkgroot/usr/local/outset
+pkg: build
+	cd ./build
+	chmod -R +x ./scripts
+	chmod -R 755 ./pkgroot/usr/local/outset
 	pkgbuild --root pkgroot --scripts scripts --identifier ${PKGID} --version ${PKGVERSION} --ownership recommended ./${PKGTITLE}-${PKGVERSION}.component.pkg
 	productbuild --identifier ${PKGID}.${PKGVERSION} --package ./${PKGTITLE}-${PKGVERSION}.component.pkg ./${PKGTITLE}-${PKGVERSION}.pkg
 	rm -f ./${PKGTITLE}-${PKGVERSION}.component.pkg

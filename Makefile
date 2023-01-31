@@ -14,7 +14,7 @@ clean:
 
 ##  pkg - Create a package using pkgbuild
 pkg: clean
-	cd ./deploy-control-room && make pkg && mv techsuite-deploy*.pkg ../
-	cd ./deploy-davis && make pkg && mv techsuite-deploy*.pkg ../
-	cd ./deploy-edit-rooms && make pkg && mv techsuite-deploy*.pkg ../
-	cd ./deploy-mtl && make pkg && mv techsuite-deploy*.pkg ../
+	cd ./deploy-control-room && make pkg && mv ./build/techsuite-deploy*.pkg ../
+	cd ./deploy-davis && make pkg && mv ./build/techsuite-deploy*.pkg ../
+	cd ./deploy-edit-rooms && make pkg && mv ./build/techsuite-deploy*.pkg ../
+	cd ./deploy-mtl && make pkg && mv ./build/techsuite-deploy*.pkg ../

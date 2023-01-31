@@ -1,0 +1,22 @@
+#!/bin/bash
+
+/bin/chmod -R 0444 /Users/Shared/Ableton
+
+# Power Settings
+/usr/sbin/systemsetup -setsleep 45
+/usr/sbin/systemsetup -setcomputersleep 60
+/usr/sbin/systemsetup -setwakeonnetworkaccess on
+/usr/sbin/systemsetup -setrestartpowerfailure on
+/usr/bin/pmset -c disksleep 1
+/usr/bin/pmset -c darkwakes 1
+/usr/bin/pmset repeat restart weekdays 07:00:00
+
+# Fix outset permissions
+/bin/chown -R root:admin /usr/local/outset
+/bin/chmod -R 755 /usr/local/outset
+
+# Outset overrides
+/usr/local/outset/outset --add-override account-setup.sh --add-override dock-set.sh
+
+# profiles -I -F "$RECEIPT_PATH/Tech Suite Control Room.mobileconfig"
+# profiles -I -F "$RECEIPT_PATH/Tech Suite Control Room Dock.mobileconfig"
