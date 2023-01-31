@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXPLICIT_IGNORE=("Shared" "saltz" "techsuite_admin" "UM-Support" "smtd-ard" "UM-FileVault") # List of usernames to always ignore
+EXPLICIT_IGNORE=("Shared" "saltz" "techsuite_admin" "UM-Support" "smtd-ard" "UM-FileVault" "loginwindow" "smtdfilevault") # List of usernames to always ignore
 
 DAYS_INACTIVE=21 # Number of days a user can be inactive before getting deleted
 
