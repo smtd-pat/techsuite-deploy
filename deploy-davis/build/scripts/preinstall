@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/bin/rm -rf /usr/local/outset/login-once /usr/local/outset/login-every /usr/local/outset/boot-every
