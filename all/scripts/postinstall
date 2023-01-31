@@ -16,7 +16,9 @@
 /bin/chmod -R 755 /usr/local/outset
 
 # Outset overrides
-/usr/local/outset/outset --add-override account-setup.sh --add-override dock-set.sh
-
-# profiles -I -F "$RECEIPT_PATH/Tech Suite Control Room.mobileconfig"
-# profiles -I -F "$RECEIPT_PATH/Tech Suite Control Room Dock.mobileconfig"
+if [[ -f "/usr/local/outset/login-once/dock-set.sh" ]]; then
+    /usr/local/outset/outset --add-override dock-set.sh
+fi
+if [[ -f "/usr/local/outset/login-once/account-setup.sh" ]]; then
+    /usr/local/outset/outset --add-override account-setup.sh
+fi
