@@ -5,3 +5,4 @@ sample*
 *.pyc
 outset.wiki
 .idea/
+*/build/
