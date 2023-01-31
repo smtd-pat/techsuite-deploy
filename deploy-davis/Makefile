@@ -1,5 +1,5 @@
 PKGTITLE="techsuite-deploy-davis"
-PKGVERSION="1.0.0"
+PKGVERSION="1.1.0"
 PKGID=edu.umich.smtd.techsuite
 PROJECT="techsuite-deploy"
 
