@@ -313,7 +313,7 @@
 	<key>PayloadDescription</key>
 	<string>Configuration for Tech Suite computers</string>
 	<key>PayloadDisplayName</key>
-	<string>Tech Suite Control Room</string>
+	<string>Tech Suite</string>
 	<key>PayloadIdentifier</key>
 	<string>com.umich.smtd.techsuite</string>
 	<key>PayloadOrganization</key>

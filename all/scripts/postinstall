@@ -19,6 +19,9 @@
 if [[ -f "/usr/local/outset/login-once/dock-set.sh" ]]; then
     /usr/local/outset/outset --add-override dock-set.sh
 fi
+if [[ -f "/usr/local/outset/login-once/dock-set-all.sh" ]]; then
+    /usr/local/outset/outset --add-override dock-set-all.sh
+fi
 if [[ -f "/usr/local/outset/login-once/account-setup.sh" ]]; then
     /usr/local/outset/outset --add-override account-setup.sh
 fi
