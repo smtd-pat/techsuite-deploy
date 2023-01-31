@@ -15,3 +15,4 @@
 ## Requires
 
 - [Outset](https://github.com/chilcote/outset)
+- [Dockutil](https://github.com/kcrawford/dockutil)
