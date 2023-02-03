@@ -22,3 +22,9 @@ fi
 if [[ -f "/usr/local/outset/login-once/account-setup.sh" ]]; then
     /usr/local/outset/outset --add-override account-setup.sh
 fi
+if [[ -f "/usr/local/outset/login-once/copy-logout-app.sh" ]]; then
+    /usr/local/outset/outset --add-override copy-logout-app.sh
+fi
+if [[ -f "/usr/local/outset/login-once/reset-live.sh" ]]; then
+    /usr/local/outset/outset --add-override reset-live.sh
+fi
