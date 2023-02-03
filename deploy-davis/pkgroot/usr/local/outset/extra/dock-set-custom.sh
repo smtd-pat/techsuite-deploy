@@ -1,5 +1,7 @@
 #!/bin/bash
 
+dockutil="/usr/local/bin/dockutil"
+
 ${dockutil} --add '/Applications/RedNet Control 2.app' --after 'Slack' --no-restart
 ${dockutil} --add '/Applications/Dante Controller.app' --after 'RedNet Control 2' --no-restart
 
