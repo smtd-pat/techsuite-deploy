@@ -1,5 +1,5 @@
 PKGTITLE="techsuite-deploy-control-room"
-PKGVERSION="1.1.2"
+PKGVERSION="1.1.3"
 PKGID=edu.umich.smtd.techsuite
 PROJECT="techsuite-deploy"
 
