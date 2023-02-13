@@ -32,3 +32,7 @@ fi
 # Install Magic Wormhole
 /usr/local/bin/python3 -m pip install magic-wormhole
 echo "/Library/Frameworks/Python.framework/Versions/3.11/bin" > "/etc/paths.d/python3.11"
+
+# Convert saltz and techsuite_admin into an admin
+/usr/bin/dscl . -append /groups/admin GroupMembership techsuite_admin
+/usr/bin/dscl . -append /groups/admin GroupMembership saltz
