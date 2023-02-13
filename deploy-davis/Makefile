@@ -1,5 +1,5 @@
 PKGTITLE="techsuite-deploy-davis"
-PKGVERSION="1.1.5"
+PKGVERSION=`cat ../version`
 PKGID=edu.umich.smtd.techsuite
 PROJECT="techsuite-deploy"
 
@@ -16,6 +16,7 @@ clean:
 ##  build - Build file structure for package creation
 build: clean
 	mkdir build
+	mkdir -p pkgroot
 	cp -r ./pkgroot ./build
 	rsync -a ../all/ ./build
 
