@@ -189,6 +189,21 @@
 			<false/>
 			<key>ImportSearchEngine</key>
 			<false/>
+			<key>ManagedBookmarks</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Tech Suite Wiki</string>
+					<key>url</key>
+					<string>https://sites.google.com/umich.edu/pat/home</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Helpdesk</string>
+					<key>url</key>
+					<string>https://sites.google.com/umich.edu/pat/helpdesk</string>
+				</dict>
+			</array>
 			<key>NewTabPageLocation</key>
 			<string>https://sites.google.com/umich.edu/pat/home</string>
 			<key>PasswordManagerEnabled</key>
@@ -200,7 +215,7 @@
 			<key>PayloadType</key>
 			<string>com.google.Chrome</string>
 			<key>PayloadUUID</key>
-			<string>A69404BC-97F2-421A-89AE-14766D40C875</string>
+			<string>52103FB3-4FFB-493B-B87F-B8C7E4365301</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RemoteAccessHostAllowClientPairing</key>
@@ -229,7 +244,7 @@
 					<key>Title</key>
 					<string>Helpdesk</string>
 					<key>URL</key>
-					<string>https://teamdynamix.umich.edu/TDClient/182/Portal/Requests/ServiceCatalog?CategoryID=412</string>
+					<string>https://sites.google.com/umich.edu/pat/helpdesk</string>
 				</dict>
 			</array>
 			<key>DisableBuiltinPDFViewer</key>
@@ -323,7 +338,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>6B9E47FF-1679-4183-8EEF-B7DE44D62A66</string>
+	<string>A3F5E3EF-6F73-4634-A7C3-AD1AF83F6B7A</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
