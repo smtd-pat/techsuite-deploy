@@ -25,8 +25,8 @@ fi
 if [[ -f "/usr/local/outset/login-once/copy-logout-app.sh" ]]; then
     /usr/local/outset/outset --add-override copy-logout-app.sh
 fi
-if [[ -f "/usr/local/outset/login-once/reset-live.sh" ]]; then
-    /usr/local/outset/outset --add-override reset-live.sh
+if [[ -f "/usr/local/outset/login-once/reset-ableton.sh" ]]; then
+    /usr/local/outset/outset --add-override reset-ableton.sh
 fi
 
 # Install Magic Wormhole
