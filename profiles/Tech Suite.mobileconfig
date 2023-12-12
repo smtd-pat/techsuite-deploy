@@ -434,6 +434,26 @@
 			<key>tilesize</key>
 			<integer>128</integer>
 		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Loginwindow</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginwindow.3DC94313-D1BA-40BB-9041-F2057D7061FE</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>3DC94313-D1BA-40BB-9041-F2057D7061FE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PowerOffDisabledWhileLoggedIn</key>
+			<true/>
+			<key>RestartDisabledWhileLoggedIn</key>
+			<true/>
+			<key>ShutDownDisabled</key>
+			<true/>
+			<key>ShutDownDisabledWhileLoggedIn</key>
+			<true/>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>Configuration for Tech Suite computers</string>
@@ -448,7 +468,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>89669EF1-427E-4CA1-8AD8-536AEE9EA73C</string>
+	<string>6C2CDF9C-3474-4AAB-A74F-97DC7619BAA3</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
