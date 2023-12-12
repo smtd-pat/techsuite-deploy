@@ -334,68 +334,6 @@
 		</dict>
 		<dict>
 			<key>PayloadDisplayName</key>
-			<string>XCreds #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.twocanoes.xcreds.3C8AFBAC-AC30-4544-8A7F-712B9E5A60E2</string>
-			<key>PayloadType</key>
-			<string>com.twocanoes.xcreds</string>
-			<key>PayloadUUID</key>
-			<string>3C8AFBAC-AC30-4544-8A7F-712B9E5A60E2</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>loginWindowBackgroundImageURL</key>
-			<string>file:///Library/Desktop Pictures/Desktop.heic</string>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.MCX.D2E0419E-D14F-4B81-ACC5-6383F1B02C7B</string>
-			<key>PayloadType</key>
-			<string>com.apple.MCX</string>
-			<key>PayloadUUID</key>
-			<string>D2E0419E-D14F-4B81-ACC5-6383F1B02C7B</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>com.apple.EnergySaver.desktop.ACPower</key>
-			<dict>
-				<key>Automatic Restart On Power Loss</key>
-				<integer>1</integer>
-				<key>Disk Sleep Timer</key>
-				<integer>90</integer>
-				<key>Display Sleep Timer</key>
-				<integer>60</integer>
-				<key>System Sleep Timer</key>
-				<integer>90</integer>
-				<key>Wake On LAN</key>
-				<integer>1</integer>
-				<key>Wake On Modem Ring</key>
-				<integer>1</integer>
-			</dict>
-			<key>com.apple.EnergySaver.desktop.Schedule</key>
-			<dict>
-				<key>RepeatingPowerOff</key>
-				<dict>
-					<key>eventtype</key>
-					<string>restart</string>
-					<key>time</key>
-					<integer>420</integer>
-					<key>weekdays</key>
-					<integer>128</integer>
-				</dict>
-				<key>RepeatingPowerOn</key>
-				<dict>
-					<key>eventtype</key>
-					<string>wakepoweron</string>
-					<key>time</key>
-					<integer>425</integer>
-					<key>weekdays</key>
-					<integer>31</integer>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
 			<string>Dock</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dock.F9540A09-62A7-45DF-A53D-058DC8653051</string>
@@ -424,7 +362,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D3EBA2BB-70C7-4508-B378-AC22287C907F</string>
+	<string>B7B2994F-8443-452A-B516-834B191D4F03</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
