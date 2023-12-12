@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EnterprisePoliciesEnabled</key>
+			<true/>
+			<key>Homepage</key>
+			<dict>
+				<key>URL</key>
+				<string>https://smtd-pat.github.io/tech-suite-manual/#/mtl</string>
+			</dict>
+			<key>OverrideFirstRunPage</key>
+			<string>https://smtd-pat.github.io/tech-suite-manual/#/mtl|https://sites.google.com/umich.edu/pat/home</string>
+			<key>PayloadDisplayName</key>
+			<string>Firefox</string>
+			<key>PayloadIdentifier</key>
+			<string>org.mozilla.firefox.1F662372-F0F7-4BB7-A79B-16875A7A9281</string>
+			<key>PayloadType</key>
+			<string>org.mozilla.firefox</string>
+			<key>PayloadUUID</key>
+			<string>1F662372-F0F7-4BB7-A79B-16875A7A9281</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>HomepageLocation</key>
+			<string>https://smtd-pat.github.io/tech-suite-manual/#/mtl</string>
+			<key>NewTabPageLocation</key>
+			<string>https://smtd-pat.github.io/tech-suite-manual/#/mtl</string>
+			<key>PayloadDisplayName</key>
+			<string>Google Chrome</string>
+			<key>PayloadIdentifier</key>
+			<string>com.google.Chrome.E49022CC-7898-4C83-8438-5A1ECAAF0830</string>
+			<key>PayloadType</key>
+			<string>com.google.Chrome</string>
+			<key>PayloadUUID</key>
+			<string>E49022CC-7898-4C83-8438-5A1ECAAF0830</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>HomePage</key>
+			<string>https://smtd-pat.github.io/tech-suite-manual/#/mtl</string>
+			<key>PayloadDisplayName</key>
+			<string>Safari</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.Safari.C5ECF9C4-F20E-4D3D-A8B5-39C2025FEBAB</string>
+			<key>PayloadType</key>
+			<string>com.apple.Safari</string>
+			<key>PayloadUUID</key>
+			<string>C5ECF9C4-F20E-4D3D-A8B5-39C2025FEBAB</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configuration for MTL computers (v1.2.3)</string>
+	<key>PayloadDisplayName</key>
+	<string>Tech Suite MTL</string>
+	<key>PayloadIdentifier</key>
+	<string>com.umich.smtd.techsuite.mtl</string>
+	<key>PayloadOrganization</key>
+	<string>UMICH SMTD Tech Suite Administrators</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1690A23E-0F94-48CE-8252-8A724F8450B7</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

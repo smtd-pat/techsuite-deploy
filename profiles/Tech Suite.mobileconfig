@@ -44,7 +44,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SetupAssistant.managed</string>
 			<key>PayloadUUID</key>
-			<string>822509D4-E97A-4AE9-8BE6-614D46E3BB0E</string>
+			<string>435C557C-4D4C-429E-96A5-209707DC76A8</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SkipCloudSetup</key>
@@ -89,6 +89,8 @@
 			<string>Drift</string>
 		</dict>
 		<dict>
+			<key>AppleShowAllExtensions</key>
+			<true/>
 			<key>NSDocumentSaveNewDocumentsToCloud</key>
 			<false/>
 			<key>PayloadDisplayName</key>
@@ -98,25 +100,11 @@
 			<key>PayloadType</key>
 			<string>.GlobalPreferences</string>
 			<key>PayloadUUID</key>
-			<string>C69989BF-0654-4FC5-8877-D1021C72967E</string>
+			<string>D6F0FC16-B466-4181-A564-CCF89C0E2625</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>com.apple.autologout.AutoLogOutDelay</key>
 			<integer>3600</integer>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Slack #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.tinyspeck.slackmacgap.9677574E-F97F-48DB-9A8B-2D45D27C1324</string>
-			<key>PayloadType</key>
-			<string>com.tinyspeck.slackmacgap</string>
-			<key>PayloadUUID</key>
-			<string>9677574E-F97F-48DB-9A8B-2D45D27C1324</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>SlackDefaultSignInWorkspace</key>
-			<string>um-smtd-tech-suite.slack.com</string>
 		</dict>
 		<dict>
 			<key>DidShowWhatsNewInSafari</key>
@@ -324,9 +312,107 @@
 			<key>override-picture-path</key>
 			<string>/Library/Desktop Pictures/Desktop.png</string>
 		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Loginwindow</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginwindow.122E7074-F657-47F1-8119-513B0B1F3BA6</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>122E7074-F657-47F1-8119-513B0B1F3BA6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PowerOffDisabledWhileLoggedIn</key>
+			<true/>
+			<key>RestartDisabled</key>
+			<true/>
+			<key>ShutDownDisabled</key>
+			<true/>
+			<key>ShutDownDisabledWhileLoggedIn</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>XCreds #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.twocanoes.xcreds.3C8AFBAC-AC30-4544-8A7F-712B9E5A60E2</string>
+			<key>PayloadType</key>
+			<string>com.twocanoes.xcreds</string>
+			<key>PayloadUUID</key>
+			<string>3C8AFBAC-AC30-4544-8A7F-712B9E5A60E2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>loginWindowBackgroundImageURL</key>
+			<string>file:///Library/Desktop Pictures/Desktop.heic</string>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.MCX.D2E0419E-D14F-4B81-ACC5-6383F1B02C7B</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>D2E0419E-D14F-4B81-ACC5-6383F1B02C7B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>com.apple.EnergySaver.desktop.ACPower</key>
+			<dict>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>1</integer>
+				<key>Disk Sleep Timer</key>
+				<integer>90</integer>
+				<key>Display Sleep Timer</key>
+				<integer>60</integer>
+				<key>System Sleep Timer</key>
+				<integer>90</integer>
+				<key>Wake On LAN</key>
+				<integer>1</integer>
+				<key>Wake On Modem Ring</key>
+				<integer>1</integer>
+			</dict>
+			<key>com.apple.EnergySaver.desktop.Schedule</key>
+			<dict>
+				<key>RepeatingPowerOff</key>
+				<dict>
+					<key>eventtype</key>
+					<string>restart</string>
+					<key>time</key>
+					<integer>420</integer>
+					<key>weekdays</key>
+					<integer>128</integer>
+				</dict>
+				<key>RepeatingPowerOn</key>
+				<dict>
+					<key>eventtype</key>
+					<string>wakepoweron</string>
+					<key>time</key>
+					<integer>425</integer>
+					<key>weekdays</key>
+					<integer>31</integer>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Dock</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dock.F9540A09-62A7-45DF-A53D-058DC8653051</string>
+			<key>PayloadType</key>
+			<string>com.apple.dock</string>
+			<key>PayloadUUID</key>
+			<string>F9540A09-62A7-45DF-A53D-058DC8653051</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>mineffect</key>
+			<string>Scale Effect</string>
+			<key>tilesize</key>
+			<integer>128</integer>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configuration for Tech Suite computers</string>
+	<string>Configuration for Tech Suite computers (v1.2.3)</string>
 	<key>PayloadDisplayName</key>
 	<string>Tech Suite</string>
 	<key>PayloadIdentifier</key>
@@ -338,7 +424,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>A3F5E3EF-6F73-4634-A7C3-AD1AF83F6B7A</string>
+	<string>D3EBA2BB-70C7-4508-B378-AC22287C907F</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
