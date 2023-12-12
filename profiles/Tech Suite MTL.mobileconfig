@@ -57,7 +57,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configuration for MTL computers (v1.2.3)</string>
+	<string>Configuration for MTL computers (v1.3)</string>
 	<key>PayloadDisplayName</key>
 	<string>Tech Suite MTL</string>
 	<key>PayloadIdentifier</key>

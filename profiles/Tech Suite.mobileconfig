@@ -412,7 +412,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configuration for Tech Suite computers (v1.2.3)</string>
+	<string>Configuration for Tech Suite computers (v1.3)</string>
 	<key>PayloadDisplayName</key>
 	<string>Tech Suite</string>
 	<key>PayloadIdentifier</key>
