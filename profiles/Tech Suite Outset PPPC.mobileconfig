@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Allows outset scripts to modify files without prompting user</string>
+			<key>PayloadDisplayName</key>
+			<string>Tech Suite Outset PPPC</string>
+			<key>PayloadIdentifier</key>
+			<string>683FBE5F-253C-495F-BEFF-8A76579372BC</string>
+			<key>PayloadOrganization</key>
+			<string>UMICH SMTD Tech Suite Administrators</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>40F2C6A5-1FC6-415D-AAF8-F9C00513F325</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.finder" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.finder</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "io.macadmins.Outset" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = T4SK8ZXCXG)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>io.macadmins.Outset</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "io.macadmins.Outset" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = T4SK8ZXCXG)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>io.macadmins.Outset</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDesktopFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "io.macadmins.Outset" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = T4SK8ZXCXG)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>io.macadmins.Outset</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Allows outset scripts to modify files without prompting user</string>
+	<key>PayloadDisplayName</key>
+	<string>Tech Suite Outset PPPC</string>
+	<key>PayloadIdentifier</key>
+	<string>683FBE5F-253C-495F-BEFF-8A76579372BC</string>
+	<key>PayloadOrganization</key>
+	<string>UMICH SMTD Tech Suite Administrators</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DAFA3384-0778-47CE-9F73-9FEC1F067529</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
