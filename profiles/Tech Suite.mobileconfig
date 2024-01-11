@@ -338,6 +338,29 @@
 			<key>tilesize</key>
 			<integer>128</integer>
 		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Service Management - Managed Login Items</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.servicemanagement.2E6B9F22-E099-4B88-B8FD-413BD9633053</string>
+			<key>PayloadType</key>
+			<string>com.apple.servicemanagement</string>
+			<key>PayloadUUID</key>
+			<string>2E6B9F22-E099-4B88-B8FD-413BD9633053</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Rules</key>
+			<array>
+				<dict>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>io.macadmins.Outset</string>
+					<key>TeamIdentifier</key>
+					<string>T4SK8ZXCXG</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>Configuration for Tech Suite computers (v1.3)</string>
@@ -352,7 +375,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>5244294C-1400-4882-8C0B-0D0E32586D93</string>
+	<string>89DD1F5F-9675-4775-A877-5D0311E2C8F5</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
