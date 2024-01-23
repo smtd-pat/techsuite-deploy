@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preset version="2.1.0">
+    <name>96kHz</name>
+    <description>Dante Controller preset</description>
+    <device>
+        <name>ControlRoom-Digiface</name>
+        <default_name>Digiface-24ddfc</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE24DDFC</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>524D450000000000</manufacturer_id>
+        <manufacturer_name>RME GmbH</manufacturer_name>
+        <model_id>50444B0000000000</model_id>
+        <model_name>Digiface Dante</model_name>
+        <model_version>1.0.3</model_version>
+        <device_type>426B6C796E330000</device_type>
+        <device_type_string>Brooklyn-III</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>ControlRoom-m908</name>
+        <default_name>m908--258c46</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE258C46</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>477261636544676E</manufacturer_id>
+        <manufacturer_name>Grace Design</manufacturer_name>
+        <model_id>0000823821908115</model_id>
+        <model_name>m908</model_name>
+        <model_version>1.0.2</model_version>
+        <model_version_string>1.0.2</model_version_string>
+        <device_type>426B6C796E330000</device_type>
+        <device_type_string>Brooklyn-III</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>ControlRoom-RedNet2</name>
+        <default_name>BKLYN-021373</default_name>
+        <instance_id>
+            <device_id>001DC10213730000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>1.2.0</model_version>
+        <model_version_string>1.2.0</model_version_string>
+        <device_type>426B6C796E000000</device_type>
+        <device_type_string>Brooklyn</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>ControlRoom-SC-RedNetD16R</name>
+        <default_name>BKLYN-II-0bd718</default_name>
+        <instance_id>
+            <device_id>001DC10BD7180000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000015</model_id>
+        <model_name>RedNet D16R AES</model_name>
+        <model_version>21.2.0</model_version>
+        <model_version_string>21.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>ControlRoom-SC-RedNetHD32R-HDX</name>
+        <default_name>BKLYN-II-15f53a</default_name>
+        <instance_id>
+            <device_id>001DC115F53A0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000013</model_id>
+        <model_name>RedNet HD32R</model_name>
+        <model_version>19.2.0</model_version>
+        <model_version_string>19.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>Davis-Digiface</name>
+        <default_name>Digiface-2710c6</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE2710C6</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>524D450000000000</manufacturer_id>
+        <manufacturer_name>RME GmbH</manufacturer_name>
+        <model_id>50444B0000000000</model_id>
+        <model_name>Digiface Dante</model_name>
+        <model_version>1.0.3</model_version>
+        <device_type>426B6C796E330000</device_type>
+        <device_type_string>Brooklyn-III</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>Davis-RolandM5000</name>
+        <default_name>XI-DANTE-0b751c</default_name>
+        <instance_id>
+            <device_id>001DC10B751C0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>526F6C616E640000</manufacturer_id>
+        <manufacturer_name>Roland Corporation</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>XI-DANTE</model_name>
+        <model_version>1.0.1</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>MachineRoom-RedNet2-1</name>
+        <default_name>BKLYN-II-1f8310</default_name>
+        <instance_id>
+            <device_id>001DC11F83100000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>000000000000000C</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>12.2.0</model_version>
+        <model_version_string>12.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>MachineRoom-RedNet2-2</name>
+        <default_name>BKLYN-II-0bd40e</default_name>
+        <instance_id>
+            <device_id>001DC10BD40E0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>000000000000000C</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>12.2.0</model_version>
+        <model_version_string>12.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>MachineRoom-RedNet2-3</name>
+        <default_name>BKLYN-II-0f7788</default_name>
+        <instance_id>
+            <device_id>001DC10F77880000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>000000000000000C</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>12.2.0</model_version>
+        <model_version_string>12.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>MachineRoom-RedNetMP8R-1</name>
+        <default_name>BKLYN-II-0bf3c8</default_name>
+        <instance_id>
+            <device_id>001DC10BF3C80000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000012</model_id>
+        <model_name>RedNet MP8R</model_name>
+        <model_version>18.2.0</model_version>
+        <model_version_string>18.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>MachineRoom-RedNetMP8R-2</name>
+        <default_name>BKLYN-II-0bf3ce</default_name>
+        <instance_id>
+            <device_id>001DC10BF3CE0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000012</model_id>
+        <model_name>RedNet MP8R</model_name>
+        <model_version>18.2.0</model_version>
+        <model_version_string>18.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>MachineRoom-RedNetMP8R-3</name>
+        <default_name>BKLYN-II-0bf3cc</default_name>
+        <instance_id>
+            <device_id>001DC10BF3CC0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000012</model_id>
+        <model_name>RedNet MP8R</model_name>
+        <model_version>18.2.0</model_version>
+        <model_version_string>18.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>Portable-Red4Pre-1</name>
+        <default_name>BKLYN-II-0dd554</default_name>
+        <instance_id>
+            <device_id>001DC10DD5540000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000002</model_id>
+        <model_name>Red 4 Pre</model_name>
+        <model_version>2.2.0</model_version>
+        <model_version_string>2.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>Portable-Red4Pre-2</name>
+        <default_name>BKLYN-II-0dd6c2</default_name>
+        <instance_id>
+            <device_id>001DC10DD6C20000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000002</model_id>
+        <model_name>Red 4 Pre</model_name>
+        <model_version>2.2.0</model_version>
+        <model_version_string>2.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>RackA-RedNetA16R</name>
+        <default_name>RN-A16R-0f8492</default_name>
+        <instance_id>
+            <device_id>001DC10F84920000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000017</model_id>
+        <model_name>RedNet A16R</model_name>
+        <model_version>23.2.0</model_version>
+        <model_version_string>23.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>RackA-RedNetMP8R-1</name>
+        <default_name>BKLYN-II-0dd98a</default_name>
+        <instance_id>
+            <device_id>001DC10DD98A0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000012</model_id>
+        <model_name>RedNet MP8R</model_name>
+        <model_version>18.2.0</model_version>
+        <model_version_string>18.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>RackA-RedNetMP8R-2</name>
+        <default_name>BKLYN-II-0dd942</default_name>
+        <instance_id>
+            <device_id>001DC10DD9420000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000012</model_id>
+        <model_name>RedNet MP8R</model_name>
+        <model_version>18.2.0</model_version>
+        <model_version_string>18.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>RackB-RedNetA16R</name>
+        <default_name>RN-A16R-0f848c</default_name>
+        <instance_id>
+            <device_id>001DC10F848C0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000017</model_id>
+        <model_name>RedNet A16R</model_name>
+        <model_version>23.2.0</model_version>
+        <model_version_string>23.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>RackB-RedNetMP8R-1</name>
+        <default_name>BKLYN-II-0bf3d8</default_name>
+        <instance_id>
+            <device_id>001DC10BF3D80000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000012</model_id>
+        <model_name>RedNet MP8R</model_name>
+        <model_version>18.2.0</model_version>
+        <model_version_string>18.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+    <device>
+        <name>RackB-RedNetMP8R-2</name>
+        <default_name>BKLYN-II-0b99dc</default_name>
+        <instance_id>
+            <device_id>001DC10B99DC0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000012</model_id>
+        <model_name>RedNet MP8R</model_name>
+        <model_version>18.2.0</model_version>
+        <model_version_string>18.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <samplerate>96000</samplerate>
+    </device>
+</preset>

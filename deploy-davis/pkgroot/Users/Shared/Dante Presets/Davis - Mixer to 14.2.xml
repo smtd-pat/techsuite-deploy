@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preset version="2.1.0">
+    <name>Davis - Mixer to 14.2</name>
+    <description>Dante Controller preset</description>
+    <device>
+        <name>Davis-RolandM5000</name>
+        <default_name>XI-DANTE-0b751c</default_name>
+        <instance_id>
+            <device_id>001DC10B751C0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>526F6C616E640000</manufacturer_id>
+        <manufacturer_name>Roland Corporation</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>XI-DANTE</model_name>
+        <model_version>1.0.1</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <rxchannel danteId="1" mediaType="audio">
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio"/>
+        <rxchannel danteId="4" mediaType="audio"/>
+        <rxchannel danteId="5" mediaType="audio"/>
+        <rxchannel danteId="6" mediaType="audio"/>
+        <rxchannel danteId="7" mediaType="audio"/>
+        <rxchannel danteId="8" mediaType="audio"/>
+        <rxchannel danteId="9" mediaType="audio"/>
+        <rxchannel danteId="10" mediaType="audio"/>
+        <rxchannel danteId="11" mediaType="audio"/>
+        <rxchannel danteId="12" mediaType="audio"/>
+        <rxchannel danteId="13" mediaType="audio"/>
+        <rxchannel danteId="14" mediaType="audio"/>
+        <rxchannel danteId="15" mediaType="audio"/>
+        <rxchannel danteId="16" mediaType="audio"/>
+        <rxchannel danteId="17" mediaType="audio"/>
+        <rxchannel danteId="18" mediaType="audio"/>
+        <rxchannel danteId="19" mediaType="audio"/>
+        <rxchannel danteId="20" mediaType="audio"/>
+        <rxchannel danteId="21" mediaType="audio"/>
+        <rxchannel danteId="22" mediaType="audio"/>
+        <rxchannel danteId="23" mediaType="audio"/>
+        <rxchannel danteId="24" mediaType="audio"/>
+        <rxchannel danteId="25" mediaType="audio"/>
+        <rxchannel danteId="26" mediaType="audio"/>
+        <rxchannel danteId="27" mediaType="audio"/>
+        <rxchannel danteId="28" mediaType="audio"/>
+        <rxchannel danteId="29" mediaType="audio"/>
+        <rxchannel danteId="30" mediaType="audio"/>
+        <rxchannel danteId="31" mediaType="audio"/>
+        <rxchannel danteId="32" mediaType="audio"/>
+        <rxchannel danteId="33" mediaType="audio"/>
+        <rxchannel danteId="34" mediaType="audio"/>
+        <rxchannel danteId="35" mediaType="audio"/>
+        <rxchannel danteId="36" mediaType="audio"/>
+        <rxchannel danteId="37" mediaType="audio"/>
+        <rxchannel danteId="38" mediaType="audio"/>
+        <rxchannel danteId="39" mediaType="audio"/>
+        <rxchannel danteId="40" mediaType="audio"/>
+        <rxchannel danteId="41" mediaType="audio"/>
+        <rxchannel danteId="42" mediaType="audio"/>
+        <rxchannel danteId="43" mediaType="audio"/>
+        <rxchannel danteId="44" mediaType="audio"/>
+        <rxchannel danteId="45" mediaType="audio"/>
+        <rxchannel danteId="46" mediaType="audio"/>
+        <rxchannel danteId="47" mediaType="audio"/>
+        <rxchannel danteId="48" mediaType="audio"/>
+        <rxchannel danteId="49" mediaType="audio"/>
+        <rxchannel danteId="50" mediaType="audio"/>
+        <rxchannel danteId="51" mediaType="audio"/>
+        <rxchannel danteId="52" mediaType="audio"/>
+        <rxchannel danteId="53" mediaType="audio"/>
+        <rxchannel danteId="54" mediaType="audio"/>
+        <rxchannel danteId="55" mediaType="audio"/>
+        <rxchannel danteId="56" mediaType="audio"/>
+        <rxchannel danteId="57" mediaType="audio"/>
+        <rxchannel danteId="58" mediaType="audio"/>
+        <rxchannel danteId="59" mediaType="audio"/>
+        <rxchannel danteId="60" mediaType="audio"/>
+        <rxchannel danteId="61" mediaType="audio"/>
+        <rxchannel danteId="62" mediaType="audio"/>
+        <rxchannel danteId="63" mediaType="audio"/>
+        <rxchannel danteId="64" mediaType="audio"/>
+    </device>
+    <device>
+        <name>MachineRoom-RedNet2-1</name>
+        <default_name>BKLYN-II-1f8310</default_name>
+        <instance_id>
+            <device_id>001DC11F83100000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>000000000000000C</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>12.2.0</model_version>
+        <model_version_string>12.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <rxchannel danteId="1" mediaType="audio">
+            <subscribed_channel>GRP1 L - 01</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <subscribed_channel>GRL1 R - 02</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <subscribed_channel>GRP2 L - 03</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <subscribed_channel>GRP2 R - 04</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <subscribed_channel>GRP3 L - 05</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <subscribed_channel>GRP3 R - 06</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <subscribed_channel>GRP4 L - 07</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <subscribed_channel>GRP4 R - 08</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <subscribed_channel>GRP5 L - 09</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <subscribed_channel>GRP5 R -10</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <subscribed_channel>GRP6 L - 11</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <subscribed_channel>GRP6 R - 12</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <subscribed_channel>GRP7 L - 13</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <subscribed_channel>GRP7 R -14</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <subscribed_channel>Sub L - 15</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <subscribed_channel>Sub R - 16</subscribed_channel>
+            <subscribed_device>Davis-RolandM5000</subscribed_device>
+        </rxchannel>
+    </device>
+</preset>

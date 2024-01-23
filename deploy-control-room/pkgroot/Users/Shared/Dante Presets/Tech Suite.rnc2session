@@ -1,0 +1,109 @@
+<rnc2appState>
+ <devices>
+  <device model="Digiface Dante" name="ControlRoom-Digiface" manufacturer="RME GmbH" macAddress="001dc124ddfc" canOverwriteModelID="true" productId="50444b0000000000">
+   <plugin/>
+  </device>
+  <device model="RedNet 2" name="ControlRoom-RedNet2" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc1021373" canOverwriteModelID="true" productId="0000000000000001">
+   <plugin/>
+  </device>
+  <device model="RedNet D16R AES" name="ControlRoom-SC-RedNetD16R" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10bd718" canOverwriteModelID="true" productId="0000000000000015">
+   <plugin/>
+  </device>
+  <device model="RedNet HD32R" name="ControlRoom-SC-RedNetHD32R-HDX" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc115f53a" canOverwriteModelID="true" productId="0000000000000013">
+   <plugin/>
+  </device>
+  <device model="m908" name="ControlRoom-m908" manufacturer="Grace Design" macAddress="001dc1258c46" canOverwriteModelID="true" productId="0000823821908115">
+   <plugin/>
+  </device>
+  <device model="Digiface Dante" name="Davis-Digiface" manufacturer="RME GmbH" macAddress="001dc12710c6" canOverwriteModelID="true" productId="50444b0000000000">
+   <plugin/>
+  </device>
+  <device model="XI-DANTE" name="Davis-RolandM5000" manufacturer="Roland Corporation" macAddress="001dc10b751c" canOverwriteModelID="true" productId="0000000000000001">
+   <plugin/>
+  </device>
+  <device model="RedNet 2" name="MachineRoom-RedNet2-1" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc11f8310" canOverwriteModelID="true" productId="000000000000000c">
+   <plugin/>
+  </device>
+  <device model="RedNet 2" name="MachineRoom-RedNet2-2" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10bd40e" canOverwriteModelID="true" productId="000000000000000c">
+   <plugin/>
+  </device>
+  <device model="RedNet 2" name="MachineRoom-RedNet2-3" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10f7788" canOverwriteModelID="true" productId="000000000000000c">
+   <plugin/>
+  </device>
+  <device model="RedNet MP8R" name="MachineRoom-RedNetMP8R-1" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10bf3c8" canOverwriteModelID="true" productId="0000000000000012">
+   <plugin midiChannel="-1"/>
+  </device>
+  <device model="RedNet MP8R" name="MachineRoom-RedNetMP8R-2" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10bf3ce" canOverwriteModelID="true" productId="0000000000000012">
+   <plugin midiChannel="-1"/>
+  </device>
+  <device model="RedNet MP8R" name="MachineRoom-RedNetMP8R-3" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10bf3cc" canOverwriteModelID="true" productId="0000000000000012">
+   <plugin midiChannel="-1"/>
+  </device>
+  <device model="D400" name="Portable-AviomD400" manufacturer="Aviom" macAddress="001dc10fb4f8" canOverwriteModelID="true" productId="4434303000000002">
+   <plugin/>
+  </device>
+  <device model="Red 4 Pre" name="Portable-Red4Pre-1" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10dd554" canOverwriteModelID="true" productId="0000000000000002">
+   <plugin/>
+  </device>
+  <device model="Red 4 Pre" name="Portable-Red4Pre-2" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10dd6c2" canOverwriteModelID="true" productId="0000000000000002">
+   <plugin/>
+  </device>
+  <device model="RedNet A16R" name="RackA-RedNetA16R" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10f8492" canOverwriteModelID="true" productId="0000000000000017">
+   <plugin/>
+  </device>
+  <device model="RedNet MP8R" name="RackA-RedNetMP8R-1" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10dd98a" canOverwriteModelID="true" productId="0000000000000012">
+   <plugin midiChannel="-1"/>
+  </device>
+  <device model="RedNet MP8R" name="RackA-RedNetMP8R-2" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10dd942" canOverwriteModelID="true" productId="0000000000000012">
+   <plugin midiChannel="-1"/>
+  </device>
+  <device model="RedNet A16R" name="RackB-RedNetA16R" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10f848c" canOverwriteModelID="true" productId="0000000000000017">
+   <plugin/>
+  </device>
+  <device model="RedNet MP8R" name="RackB-RedNetMP8R-1" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10bf3d8" canOverwriteModelID="true" productId="0000000000000012">
+   <plugin midiChannel="-1"/>
+  </device>
+  <device model="RedNet MP8R" name="RackB-RedNetMP8R-2" manufacturer="Focusrite Audio Engineering Ltd" macAddress="001dc10b99dc" canOverwriteModelID="true" productId="0000000000000012">
+   <plugin midiChannel="-1"/>
+  </device>
+ </devices>
+ <window>
+  <windowSettings editingEnabled="true" fullscreen="false" x="205" maximized="false" isExpansion="false" height="600" y="55" width="1020"/>
+  <tabs current="0">
+   <tab tabType="networkGrid" cols="2" sampleRate="0" pullUp="None" name="Machine Room" rows="3">
+    <cell row="0" model="RedNet MP8R" name="MachineRoom-RedNetMP8R-1" manufacturer="Focusrite Audio Engineering Ltd" col="0" productId="0000000000000012"/>
+    <cell row="0" model="RedNet 2" name="MachineRoom-RedNet2-1" manufacturer="Focusrite Audio Engineering Ltd" col="1" productId="000000000000000c"/>
+    <cell row="1" model="RedNet MP8R" name="MachineRoom-RedNetMP8R-2" manufacturer="Focusrite Audio Engineering Ltd" col="0" productId="0000000000000012"/>
+    <cell row="1" model="RedNet 2" name="MachineRoom-RedNet2-2" manufacturer="Focusrite Audio Engineering Ltd" col="1" productId="000000000000000c"/>
+    <cell row="2" model="RedNet MP8R" name="MachineRoom-RedNetMP8R-3" manufacturer="Focusrite Audio Engineering Ltd" col="0" productId="0000000000000012"/>
+    <cell row="2" model="RedNet 2" name="MachineRoom-RedNet2-3" manufacturer="Focusrite Audio Engineering Ltd" col="1" productId="000000000000000c"/>
+   </tab>
+   <tab tabType="networkGrid" cols="2" sampleRate="0" pullUp="None" name="Control Room" rows="3">
+    <cell row="0" model="RedNet 2" name="ControlRoom-RedNet2" manufacturer="Focusrite Audio Engineering Ltd" col="0" productId="0000000000000001"/>
+    <cell row="0" model="RedNet HD32R" name="ControlRoom-SC-RedNetHD32R-HDX" manufacturer="Focusrite Audio Engineering Ltd" col="1" productId="0000000000000013"/>
+    <cell row="1" model="RedNet D16R AES" name="ControlRoom-SC-RedNetD16R" manufacturer="Focusrite Audio Engineering Ltd" col="1" productId="0000000000000015"/>
+   </tab>
+   <tab tabType="networkGrid" cols="2" sampleRate="0" pullUp="None" name="Portable Racks" rows="3">
+    <cell row="0" model="RedNet A16R" name="RackA-RedNetA16R" manufacturer="Focusrite Audio Engineering Ltd" col="0" productId="0000000000000017"/>
+    <cell row="0" model="RedNet A16R" name="RackB-RedNetA16R" manufacturer="Focusrite Audio Engineering Ltd" col="1" productId="0000000000000017"/>
+    <cell row="1" model="RedNet MP8R" name="RackA-RedNetMP8R-1" manufacturer="Focusrite Audio Engineering Ltd" col="0" productId="0000000000000012"/>
+    <cell row="1" model="RedNet MP8R" name="RackB-RedNetMP8R-1" manufacturer="Focusrite Audio Engineering Ltd" col="1" productId="0000000000000012"/>
+    <cell row="2" model="RedNet MP8R" name="RackA-RedNetMP8R-2" manufacturer="Focusrite Audio Engineering Ltd" col="0" productId="0000000000000012"/>
+    <cell row="2" model="RedNet MP8R" name="RackB-RedNetMP8R-2" manufacturer="Focusrite Audio Engineering Ltd" col="1" productId="0000000000000012"/>
+   </tab>
+  </tabs>
+  <deviceFilters>
+   <searchText></searchText>
+   <rednetModels/>
+   <thirdParty>off</thirdParty>
+   <tabs/>
+   <notInTab>off</notInTab>
+   <sampleRates/>
+   <pullUps/>
+  </deviceFilters>
+ </window>
+ <ddm>
+  <server-discovery type="AUTOMATIC"/>
+ </ddm>
+ <pairings/>
+</rnc2appState>
