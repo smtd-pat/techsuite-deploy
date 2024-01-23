@@ -9,7 +9,7 @@ ${dockutil} --remove all --no-restart
 sleep 2 # we add a delay so that the dock has time to inialize the removal
 ${dockutil} --add '/System/Applications/Launchpad.app' --no-restart
 ${dockutil} --add '/Applications/Log Out.app' --no-restart
-${dockutil} --add '/System/Applications/Safari.app' --no-restart
+${dockutil} --add '/Applications/Safari.app' --no-restart
 ${dockutil} --add '/Applications/Google Chrome.app' --no-restart
 ${dockutil} --add '/Applications/Firefox.app' --no-restart
 ${dockutil} --add '/Applications/Spotify.app' --no-restart
