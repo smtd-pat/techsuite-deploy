@@ -1,5 +1,6 @@
 #!/bin/bash
 
+/bin/mkdir -p /Users/Shared/Ableton
 /bin/chmod -R 755 /Users/Shared/Ableton
 
 # Power Settings
@@ -12,8 +13,8 @@
 /usr/bin/pmset repeat restart MTWRFSU 07:00:00
 
 # Fix outset permissions
-/bin/chown -R root:admin /usr/local/outset
-/bin/chmod -R 755 /usr/local/outset
+/usr/sbin/chown -R root:admin /usr/local/outset
+/usr/sbin/chmod -R 755 /usr/local/outset
 
 # Outset overrides
 if [[ -f "/usr/local/outset/login-once/dock-set.sh" ]]; then
