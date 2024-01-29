@@ -9,6 +9,5 @@ for user in $USER_LIST; do
     [[ " ${EXPLICIT_IGNORE[*]} " =~ " ${user} " ]] && continue
     [[ -n $(id -Gn $user | /usr/bin/grep -w admin) ]] && continue
     echo "Deleting $user"
-    /usr/bin/dscl . delete "/Users/$user"
-    /bin/rm -rf "/Users/$user"
+    /usr/sbin/sysadminctl -deleteUser $user
 done
