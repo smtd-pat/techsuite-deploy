@@ -11,10 +11,12 @@ clean:
 	cd ./deploy-davis && make clean
 	cd ./deploy-edit-rooms && make clean
 	cd ./deploy-mtl && make clean
-	rm -rf profiles.zip
+	rm -f profiles.zip
+	rm -f ./all/pkgroot/Library/Admin\ Tools/version.txt
 
 ##  pkg - Create a package using pkgbuild
 pkg: clean
+	cat ./version > ./all/pkgroot/Library/Admin\ Tools/version.txt
 	cd ./deploy-control-room && make pkg && mv ./techsuite-deploy*.pkg ../
 	cd ./deploy-davis && make pkg && mv ./techsuite-deploy*.pkg ../
 	cd ./deploy-edit-rooms && make pkg && mv ./techsuite-deploy*.pkg ../

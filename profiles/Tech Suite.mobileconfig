@@ -5,126 +5,6 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>FXPreferredViewStyle</key>
-			<string>Nlsv</string>
-			<key>NewWindowTarget</key>
-			<string>PfDe</string>
-			<key>PayloadDisplayName</key>
-			<string>Finder</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.finder.54610D48-5D2E-4E02-BFDE-6B7F403E47E1</string>
-			<key>PayloadType</key>
-			<string>com.apple.finder</string>
-			<key>PayloadUUID</key>
-			<string>BF4539BD-9367-48A1-8C26-AF95E97E58D3</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>System Preferences: Security</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.preference.security.97A63FDC-AA93-410D-8D1D-8B181375F034</string>
-			<key>PayloadType</key>
-			<string>com.apple.preference.security</string>
-			<key>PayloadUUID</key>
-			<string>97A63FDC-AA93-410D-8D1D-8B181375F034</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>dontAllowLockMessageUI</key>
-			<true/>
-			<key>dontAllowPasswordResetUI</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Setup Assistant #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.SetupAssistant.managed.9E009139-F206-4482-934F-3D5A8EF1ED94</string>
-			<key>PayloadType</key>
-			<string>com.apple.SetupAssistant.managed</string>
-			<key>PayloadUUID</key>
-			<string>435C557C-4D4C-429E-96A5-209707DC76A8</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>SkipCloudSetup</key>
-			<true/>
-			<key>SkipPrivacySetup</key>
-			<true/>
-			<key>SkipScreenTime</key>
-			<true/>
-			<key>SkipSiriSetup</key>
-			<true/>
-			<key>SkipTouchIDSetup</key>
-			<true/>
-			<key>SkipTrueTone</key>
-			<true/>
-			<key>SkipUnlockWithWatch</key>
-			<true/>
-			<key>SkipiCloudStorageSetup</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Screensaver</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.screensaver.28DD18FD-635E-4440-A5F9-BC966C6C70E1</string>
-			<key>PayloadType</key>
-			<string>com.apple.screensaver</string>
-			<key>PayloadUUID</key>
-			<string>D8BD1FC0-5BCD-4E2C-BF15-EFFDFBC347E1</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>askForPassword</key>
-			<true/>
-			<key>askForPasswordDelay</key>
-			<integer>5</integer>
-			<key>idleTime</key>
-			<integer>3600</integer>
-			<key>loginWindowIdleTime</key>
-			<integer>30</integer>
-			<key>loginWindowModulePath</key>
-			<string>/System/Library/Screen Savers/Drift.saver</string>
-			<key>moduleName</key>
-			<string>Drift</string>
-		</dict>
-		<dict>
-			<key>AppleShowAllExtensions</key>
-			<true/>
-			<key>NSDocumentSaveNewDocumentsToCloud</key>
-			<false/>
-			<key>PayloadDisplayName</key>
-			<string>Global Preferences</string>
-			<key>PayloadIdentifier</key>
-			<string>.GlobalPreferences.C69989BF-0654-4FC5-8877-D1021C72967E</string>
-			<key>PayloadType</key>
-			<string>.GlobalPreferences</string>
-			<key>PayloadUUID</key>
-			<string>D6F0FC16-B466-4181-A564-CCF89C0E2625</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>com.apple.autologout.AutoLogOutDelay</key>
-			<integer>3600</integer>
-		</dict>
-		<dict>
-			<key>DidShowWhatsNewInSafari</key>
-			<true/>
-			<key>NewTabBehavior</key>
-			<integer>0</integer>
-			<key>NewWindowBehavior</key>
-			<integer>0</integer>
-			<key>PayloadDisplayName</key>
-			<string>Safari</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.Safari.72E550E4-723D-4C80-9F30-BCAB99D1061F</string>
-			<key>PayloadType</key>
-			<string>com.apple.Safari</string>
-			<key>PayloadUUID</key>
-			<string>115E2D5C-285F-49B2-8A25-FCC1F54A33EA</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>FeatureAvailable_ExpertAudio</key>
 			<true/>
 			<key>FeatureAvailable_ExpertCS</key>
@@ -137,6 +17,8 @@
 			<true/>
 			<key>FeatureAvailable_Surround</key>
 			<true/>
+			<key>PayloadDescription</key>
+			<string>Configures Logic Pro X configuration preferences</string>
 			<key>PayloadDisplayName</key>
 			<string>Logic Pro X #1</string>
 			<key>PayloadIdentifier</key>
@@ -151,6 +33,129 @@
 			<integer>99</integer>
 			<key>userLevel</key>
 			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Loginwindow settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Loginwindow</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginwindow.122E7074-F657-47F1-8119-513B0B1F3BA6</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>122E7074-F657-47F1-8119-513B0B1F3BA6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PowerOffDisabledWhileLoggedIn</key>
+			<true/>
+			<key>RestartDisabled</key>
+			<true/>
+			<key>SHOWFULLNAME</key>
+			<true/>
+			<key>ShutDownDisabled</key>
+			<true/>
+			<key>ShutDownDisabledWhileLoggedIn</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Control the user experience for ServiceManagement login items (including launchd agents and daemons) in Login Items Settings.</string>
+			<key>PayloadDisplayName</key>
+			<string>Service Management - Managed Login Items</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.servicemanagement.2E6B9F22-E099-4B88-B8FD-413BD9633053</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.servicemanagement</string>
+			<key>PayloadUUID</key>
+			<string>2E6B9F22-E099-4B88-B8FD-413BD9633053</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Rules</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string></string>
+					<key>RuleType</key>
+					<string>LabelPrefix</string>
+					<key>RuleValue</key>
+					<string>io.macadmins.Outset</string>
+					<key>TeamIdentifier</key>
+					<string>T4SK8ZXCXG</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>DidShowWhatsNewInSafari</key>
+			<true/>
+			<key>HomePage</key>
+			<string>https://myumi.ch/smtd-techsuite</string>
+			<key>NewTabBehavior</key>
+			<integer>0</integer>
+			<key>NewWindowBehavior</key>
+			<integer>0</integer>
+			<key>PayloadDescription</key>
+			<string>Configures Safari configuration preferences</string>
+			<key>PayloadDisplayName</key>
+			<string>Safari</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.Safari.72E550E4-723D-4C80-9F30-BCAB99D1061F</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.Safari</string>
+			<key>PayloadUUID</key>
+			<string>115E2D5C-285F-49B2-8A25-FCC1F54A33EA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Screensaver settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Screensaver</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.screensaver.28DD18FD-635E-4440-A5F9-BC966C6C70E1</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.screensaver</string>
+			<key>PayloadUUID</key>
+			<string>D8BD1FC0-5BCD-4E2C-BF15-EFFDFBC347E1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>askForPassword</key>
+			<false/>
+			<key>idleTime</key>
+			<integer>3600</integer>
+			<key>loginWindowIdleTime</key>
+			<integer>30</integer>
+			<key>loginWindowModulePath</key>
+			<string>/System/Library/Screen Savers/Drift.saver</string>
+			<key>moduleName</key>
+			<string>Drift</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Desktop Picture settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Desktop Picture</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.desktop.40D14DDE-2C71-416E-85B4-5A580F4EB256</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.desktop</string>
+			<key>PayloadUUID</key>
+			<string>A9898B85-A472-4D95-A559-CBF75246EB66</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>override-picture-path</key>
+			<string>/Library/Desktop Pictures/Desktop.png</string>
 		</dict>
 		<dict>
 			<key>AllowDinosaurEasterEgg</key>
@@ -190,10 +195,14 @@
 			</array>
 			<key>PasswordManagerEnabled</key>
 			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures Google Chrome settings</string>
 			<key>PayloadDisplayName</key>
 			<string>Google Chrome</string>
 			<key>PayloadIdentifier</key>
 			<string>com.google.Chrome.6A19E504-97F0-4EA6-A2DA-91D3DB1210FE</string>
+			<key>PayloadOrganization</key>
+			<string></string>
 			<key>PayloadType</key>
 			<string>com.google.Chrome</string>
 			<key>PayloadUUID</key>
@@ -206,13 +215,71 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>BlockAboutAddons</key>
+			<key>PayloadDescription</key>
+			<string>Configures Setup Assistant settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Setup Assistant #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.SetupAssistant.managed.9E009139-F206-4482-934F-3D5A8EF1ED94</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.SetupAssistant.managed</string>
+			<key>PayloadUUID</key>
+			<string>435C557C-4D4C-429E-96A5-209707DC76A8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SkipAccessibility</key>
 			<false/>
-			<key>BlockAboutSupport</key>
+			<key>SkipAppearance</key>
 			<false/>
+			<key>SkipCloudSetup</key>
+			<true/>
+			<key>SkipPrivacySetup</key>
+			<true/>
+			<key>SkipScreenTime</key>
+			<true/>
+			<key>SkipSiriSetup</key>
+			<true/>
+			<key>SkipTouchIDSetup</key>
+			<true/>
+			<key>SkipTrueTone</key>
+			<true/>
+			<key>SkipUnlockWithWatch</key>
+			<true/>
+			<key>SkipWallpaper</key>
+			<true/>
+			<key>SkipiCloudStorageSetup</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures System Preferences: Security settings</string>
+			<key>PayloadDisplayName</key>
+			<string>System Preferences: Security</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.preference.security.97A63FDC-AA93-410D-8D1D-8B181375F034</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.preference.security</string>
+			<key>PayloadUUID</key>
+			<string>97A63FDC-AA93-410D-8D1D-8B181375F034</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>dontAllowLockMessageUI</key>
+			<true/>
+			<key>dontAllowPasswordResetUI</key>
+			<true/>
+		</dict>
+		<dict>
 			<key>Bookmarks</key>
 			<array>
 				<dict>
+					<key>Favicon</key>
+					<string></string>
+					<key>Folder</key>
+					<string></string>
 					<key>Placement</key>
 					<string>toolbar</string>
 					<key>Title</key>
@@ -221,6 +288,10 @@
 					<string>https://sites.google.com/umich.edu/pat/home</string>
 				</dict>
 				<dict>
+					<key>Favicon</key>
+					<string></string>
+					<key>Folder</key>
+					<string></string>
 					<key>Placement</key>
 					<string>toolbar</string>
 					<key>Title</key>
@@ -229,36 +300,13 @@
 					<string>https://sites.google.com/umich.edu/pat/helpdesk</string>
 				</dict>
 			</array>
-			<key>DisableBuiltinPDFViewer</key>
-			<false/>
-			<key>DisableDeveloperTools</key>
-			<false/>
-			<key>DisableFeedbackCommands</key>
-			<false/>
-			<key>DisableFirefoxAccounts</key>
-			<false/>
-			<key>DisableFirefoxScreenshots</key>
-			<false/>
-			<key>DisableFirefoxStudies</key>
-			<false/>
-			<key>DisableForgetButton</key>
-			<false/>
-			<key>DisableMasterPasswordCreation</key>
-			<false/>
-			<key>DisablePocket</key>
-			<false/>
-			<key>DisablePrivateBrowsing</key>
-			<false/>
-			<key>DisableProfileImport</key>
-			<false/>
-			<key>DisableProfileRefresh</key>
-			<false/>
-			<key>DisableSafeMode</key>
-			<false/>
-			<key>DisableSetDesktopBackground</key>
-			<false/>
-			<key>DisableSystemAddonUpdate</key>
-			<false/>
+			<key>DisableAppUpdate</key>
+			<true/>
+			<key>EnableTrackingProtection</key>
+			<dict>
+				<key>Value</key>
+				<true/>
+			</dict>
 			<key>EnterprisePoliciesEnabled</key>
 			<true/>
 			<key>Extensions</key>
@@ -268,65 +316,84 @@
 					<string>https://addons.mozilla.org/firefox/downloads/file/3989793/ublock_origin-1.44.0.xpi</string>
 				</array>
 			</dict>
+			<key>FirefoxHome</key>
+			<dict>
+				<key>Highlights</key>
+				<false/>
+				<key>Locked</key>
+				<false/>
+				<key>Pocket</key>
+				<false/>
+				<key>Search</key>
+				<true/>
+				<key>Snippets</key>
+				<false/>
+				<key>SponsoredPocket</key>
+				<false/>
+				<key>SponsoredTopSites</key>
+				<false/>
+				<key>TopSites</key>
+				<false/>
+			</dict>
 			<key>Homepage</key>
 			<dict>
 				<key>StartPage</key>
 				<string>homepage</string>
+				<key>URL</key>
+				<string>https://myumi.ch/smtd-techsuite</string>
 			</dict>
+			<key>OverrideFirstRunPage</key>
+			<string></string>
 			<key>OverridePostUpdatePage</key>
 			<string></string>
+			<key>PasswordManagerEnabled</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures Firefox settings</string>
 			<key>PayloadDisplayName</key>
 			<string>Firefox</string>
 			<key>PayloadIdentifier</key>
 			<string>org.mozilla.firefox.471622D2-98F9-41F8-9054-02DB83D025D9</string>
+			<key>PayloadOrganization</key>
+			<string></string>
 			<key>PayloadType</key>
 			<string>org.mozilla.firefox</string>
 			<key>PayloadUUID</key>
 			<string>9F903FB7-6CF8-4419-B071-F2711A37DE2D</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>SearchSuggestEnabled</key>
-			<true/>
 		</dict>
 		<dict>
+			<key>AppleShowAllExtensions</key>
+			<true/>
+			<key>MultipleSessionEnabled</key>
+			<true/>
+			<key>NSDocumentSaveNewDocumentsToCloud</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures Global Preferences settings</string>
 			<key>PayloadDisplayName</key>
-			<string>Desktop Picture</string>
+			<string>Global Preferences</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.desktop.40D14DDE-2C71-416E-85B4-5A580F4EB256</string>
+			<string>.GlobalPreferences.C69989BF-0654-4FC5-8877-D1021C72967E</string>
 			<key>PayloadType</key>
-			<string>com.apple.desktop</string>
+			<string>.GlobalPreferences</string>
 			<key>PayloadUUID</key>
-			<string>A9898B85-A472-4D95-A559-CBF75246EB66</string>
+			<string>D6F0FC16-B466-4181-A564-CCF89C0E2625</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>override-picture-path</key>
-			<string>/Library/Desktop Pictures/Desktop.png</string>
+			<key>com.apple.autologout.AutoLogOutDelay</key>
+			<integer>3600</integer>
 		</dict>
 		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Loginwindow</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.loginwindow.122E7074-F657-47F1-8119-513B0B1F3BA6</string>
-			<key>PayloadType</key>
-			<string>com.apple.loginwindow</string>
-			<key>PayloadUUID</key>
-			<string>122E7074-F657-47F1-8119-513B0B1F3BA6</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>PowerOffDisabledWhileLoggedIn</key>
-			<true/>
-			<key>RestartDisabled</key>
-			<true/>
-			<key>ShutDownDisabled</key>
-			<true/>
-			<key>ShutDownDisabledWhileLoggedIn</key>
-			<true/>
-		</dict>
-		<dict>
+			<key>PayloadDescription</key>
+			<string>Dock Payload</string>
 			<key>PayloadDisplayName</key>
 			<string>Dock</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dock.F9540A09-62A7-45DF-A53D-058DC8653051</string>
+			<key>PayloadOrganization</key>
+			<string></string>
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
@@ -335,35 +402,34 @@
 			<integer>1</integer>
 			<key>mineffect</key>
 			<string>Scale Effect</string>
+			<key>show-process-indicators</key>
+			<true/>
+			<key>show-recents</key>
+			<false/>
 			<key>tilesize</key>
 			<integer>128</integer>
 		</dict>
 		<dict>
+			<key>FXRemoveOldTrashItems</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string>Configures Finder settings</string>
 			<key>PayloadDisplayName</key>
-			<string>Service Management - Managed Login Items</string>
+			<string>Finder</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.servicemanagement.2E6B9F22-E099-4B88-B8FD-413BD9633053</string>
+			<string>com.apple.finder.54610D48-5D2E-4E02-BFDE-6B7F403E47E1</string>
+			<key>PayloadOrganization</key>
+			<string></string>
 			<key>PayloadType</key>
-			<string>com.apple.servicemanagement</string>
+			<string>com.apple.finder</string>
 			<key>PayloadUUID</key>
-			<string>2E6B9F22-E099-4B88-B8FD-413BD9633053</string>
+			<string>BF4539BD-9367-48A1-8C26-AF95E97E58D3</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>Rules</key>
-			<array>
-				<dict>
-					<key>RuleType</key>
-					<string>LabelPrefix</string>
-					<key>RuleValue</key>
-					<string>io.macadmins.Outset</string>
-					<key>TeamIdentifier</key>
-					<string>T4SK8ZXCXG</string>
-				</dict>
-			</array>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configuration for Tech Suite computers (v1.3)</string>
+	<string>Configuration for Tech Suite computers (v1.4)</string>
 	<key>PayloadDisplayName</key>
 	<string>Tech Suite</string>
 	<key>PayloadIdentifier</key>
@@ -371,14 +437,12 @@
 	<key>PayloadOrganization</key>
 	<string>UMICH SMTD Tech Suite Administrators</string>
 	<key>PayloadScope</key>
-	<string>System</string>
+	<string>User</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
 	<string>89DD1F5F-9675-4775-A877-5D0311E2C8F5</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>TargetDeviceType</key>
-	<integer>5</integer>
 </dict>
 </plist>
