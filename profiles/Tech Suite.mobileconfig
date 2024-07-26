@@ -92,8 +92,6 @@
 		<dict>
 			<key>DidShowWhatsNewInSafari</key>
 			<true/>
-			<key>HomePage</key>
-			<string>https://myumi.ch/smtd-techsuite</string>
 			<key>NewTabBehavior</key>
 			<integer>0</integer>
 			<key>NewWindowBehavior</key>
@@ -109,7 +107,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.Safari</string>
 			<key>PayloadUUID</key>
-			<string>115E2D5C-285F-49B2-8A25-FCC1F54A33EA</string>
+			<string>992AAB95-6EB7-4D62-9D61-DB3619D87A15</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -125,7 +123,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.screensaver</string>
 			<key>PayloadUUID</key>
-			<string>D8BD1FC0-5BCD-4E2C-BF15-EFFDFBC347E1</string>
+			<string>5A5097B6-AAEE-4BEF-9C9B-EAD9E470DADF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>askForPassword</key>
@@ -206,13 +204,15 @@
 			<key>PayloadType</key>
 			<string>com.google.Chrome</string>
 			<key>PayloadUUID</key>
-			<string>7FB6EC2D-6FAD-4357-A9E3-0BD6D41C5511</string>
+			<string>D678398F-E4C8-499A-B418-A0B1E9079880</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RemoteAccessHostAllowClientPairing</key>
 			<false/>
 			<key>RestoreOnStartup</key>
 			<integer>1</integer>
+			<key>ShowHomeButton</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>PayloadDescription</key>
@@ -304,6 +304,10 @@
 			<true/>
 			<key>EnableTrackingProtection</key>
 			<dict>
+				<key>Cryptomining</key>
+				<true/>
+				<key>Fingerprinting</key>
+				<true/>
 				<key>Value</key>
 				<true/>
 			</dict>
@@ -342,6 +346,8 @@
 				<key>URL</key>
 				<string>https://myumi.ch/smtd-techsuite</string>
 			</dict>
+			<key>OfferToSaveLoginsDefault</key>
+			<false/>
 			<key>OverrideFirstRunPage</key>
 			<string></string>
 			<key>OverridePostUpdatePage</key>
@@ -359,9 +365,20 @@
 			<key>PayloadType</key>
 			<string>org.mozilla.firefox</string>
 			<key>PayloadUUID</key>
-			<string>9F903FB7-6CF8-4419-B071-F2711A37DE2D</string>
+			<string>D2616DE9-AFB7-424A-B72B-70F70261B753</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>UserMessaging</key>
+			<dict>
+				<key>ExtensionRecommendations</key>
+				<true/>
+				<key>FeatureRecommendations</key>
+				<true/>
+				<key>SkipOnboarding</key>
+				<true/>
+				<key>WhatsNew</key>
+				<true/>
+			</dict>
 		</dict>
 		<dict>
 			<key>AppleShowAllExtensions</key>
@@ -397,21 +414,37 @@
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>F9540A09-62A7-45DF-A53D-058DC8653051</string>
+			<string>F569927C-0E0B-4B99-93D2-20927DB07D26</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>magnify-immutable</key>
+			<false/>
+			<key>magsize-immutable</key>
+			<false/>
 			<key>mineffect</key>
 			<string>Scale Effect</string>
+			<key>mineffect-immutable</key>
+			<false/>
+			<key>position-immutable</key>
+			<false/>
 			<key>show-process-indicators</key>
 			<true/>
 			<key>show-recents</key>
+			<false/>
+			<key>size-immutable</key>
 			<false/>
 			<key>tilesize</key>
 			<integer>128</integer>
 		</dict>
 		<dict>
+			<key>FXDefaultSearchScope</key>
+			<string>SCev</string>
+			<key>FXPreferredViewStyle</key>
+			<string>Nlsv</string>
 			<key>FXRemoveOldTrashItems</key>
 			<true/>
+			<key>NewWindowTarget</key>
+			<string>PfHm</string>
 			<key>PayloadDescription</key>
 			<string>Configures Finder settings</string>
 			<key>PayloadDisplayName</key>
@@ -423,9 +456,94 @@
 			<key>PayloadType</key>
 			<string>com.apple.finder</string>
 			<key>PayloadUUID</key>
-			<string>BF4539BD-9367-48A1-8C26-AF95E97E58D3</string>
+			<string>092EDB4A-7F23-4C12-BE4F-F6995CAB169F</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.2544746F-48A6-4B0A-ADD6-CAF314D624C0</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>2544746F-48A6-4B0A-ADD6-CAF314D624C0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>enforcedSoftwareUpdateMajorOSDeferredInstallDelay</key>
+			<integer>90</integer>
+			<key>forceDelayedMajorSoftwareUpdates</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>DiscoverableMode</key>
+			<string>Everyone</string>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.sharingd.5FF56DB5-0AEC-4145-A517-A603999B5AA2</string>
+			<key>PayloadType</key>
+			<string>com.apple.sharingd</string>
+			<key>PayloadUUID</key>
+			<string>5FF56DB5-0AEC-4145-A517-A603999B5AA2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DisableSoftwareUpdateNotifications</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>App Store settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.appstore.8502CF5B-A875-4650-B160-808D98F4428F</string>
+			<key>PayloadType</key>
+			<string>com.apple.appstore</string>
+			<key>PayloadUUID</key>
+			<string>8502CF5B-A875-4650-B160-808D98F4428F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.MCX.C05A5C6B-5221-43EF-A9DB-C2B298C3573C</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>C05A5C6B-5221-43EF-A9DB-C2B298C3573C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RequireAdminForAirPortNetworkChange</key>
+			<true/>
+			<key>SleepDisabled</key>
+			<true/>
+			<key>com.apple.EnergySaver.desktop.ACPower</key>
+			<dict>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>1</integer>
+				<key>Disk Sleep Timer</key>
+				<integer>0</integer>
+				<key>Display Sleep Timer</key>
+				<integer>0</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+				<key>Wake On LAN</key>
+				<integer>1</integer>
+			</dict>
+			<key>com.apple.EnergySaver.desktop.Schedule</key>
+			<dict>
+				<key>RepeatingPowerOff</key>
+				<dict>
+					<key>eventtype</key>
+					<string>restart</string>
+					<key>time</key>
+					<integer>0</integer>
+					<key>weekdays</key>
+					<integer>127</integer>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -437,12 +555,14 @@
 	<key>PayloadOrganization</key>
 	<string>UMICH SMTD Tech Suite Administrators</string>
 	<key>PayloadScope</key>
-	<string>User</string>
+	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>89DD1F5F-9675-4775-A877-5D0311E2C8F5</string>
+	<string>66A9E1AC-D8FB-4D01-BFA3-86188D80854E</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
 </dict>
 </plist>
