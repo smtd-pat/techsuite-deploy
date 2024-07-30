@@ -38,3 +38,6 @@ echo "/Library/Frameworks/Python.framework/Versions/3.11/bin" > "/etc/paths.d/py
 # Convert saltz and techsuite_admin into an admin
 /usr/bin/dscl . -append /groups/admin GroupMembership techsuite_admin
 /usr/bin/dscl . -append /groups/admin GroupMembership saltz
+
+# Fix ARD
+/System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -on -users smtd-ard -privs -all -restart -agent -menu
