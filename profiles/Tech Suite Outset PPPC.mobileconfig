@@ -10,13 +10,13 @@
 			<key>PayloadDisplayName</key>
 			<string>Tech Suite Outset PPPC</string>
 			<key>PayloadIdentifier</key>
-			<string>683FBE5F-253C-495F-BEFF-8A76579372BC</string>
+			<string>com.apple.TCC.configuration-profile-policy.40F2C6A5-1FC6-415D-AAF8-F9C00513F325</string>
 			<key>PayloadOrganization</key>
 			<string>UMICH SMTD Tech Suite Administrators</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>40F2C6A5-1FC6-415D-AAF8-F9C00513F325</string>
+			<string>3A59E0A1-7816-40D3-93F9-0AC91AF8DAF6</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -88,7 +88,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>DAFA3384-0778-47CE-9F73-9FEC1F067529</string>
+	<string>CD888817-2568-4A70-80FF-05FA8090922C</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

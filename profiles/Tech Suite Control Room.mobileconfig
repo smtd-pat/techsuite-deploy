@@ -13,7 +13,7 @@
 				<string>https://smtd-pat.github.io/tech-suite-manual/#/control-room</string>
 			</dict>
 			<key>OverrideFirstRunPage</key>
-			<string>https://smtd-pat.github.io/tech-suite-manual/#/control-room|https://sites.google.com/umich.edu/pat/home</string>
+			<string>https://smtd-pat.github.io/tech-suite-manual/#/control-room|https://pat.smtd.umich.edu/</string>
 			<key>PayloadDisplayName</key>
 			<string>Firefox</string>
 			<key>PayloadIdentifier</key>
@@ -21,7 +21,7 @@
 			<key>PayloadType</key>
 			<string>org.mozilla.firefox</string>
 			<key>PayloadUUID</key>
-			<string>67B06D50-9CB1-4F48-9574-57D187638BED</string>
+			<string>2400D814-6C25-4489-9117-179A461ED9F9</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -57,7 +57,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configuration for Control Room computer (v1.3)</string>
+	<string>Configuration for Control Room computer (v1.4.1)</string>
 	<key>PayloadDisplayName</key>
 	<string>Tech Suite Edit Rooms</string>
 	<key>PayloadIdentifier</key>
@@ -69,7 +69,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>AD26D814-6200-4896-965F-2E0218B43702</string>
+	<string>15D8F393-7A07-4FBA-8404-B68923B94692</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>

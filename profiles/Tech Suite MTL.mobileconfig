@@ -13,7 +13,7 @@
 				<string>https://smtd-pat.github.io/tech-suite-manual/#/mtl</string>
 			</dict>
 			<key>OverrideFirstRunPage</key>
-			<string>https://smtd-pat.github.io/tech-suite-manual/#/mtl|https://sites.google.com/umich.edu/pat/home</string>
+			<string>https://smtd-pat.github.io/tech-suite-manual/#/mtl|https://pat.smtd.umich.edu/</string>
 			<key>PayloadDisplayName</key>
 			<string>Firefox</string>
 			<key>PayloadIdentifier</key>
@@ -21,7 +21,7 @@
 			<key>PayloadType</key>
 			<string>org.mozilla.firefox</string>
 			<key>PayloadUUID</key>
-			<string>1F662372-F0F7-4BB7-A79B-16875A7A9281</string>
+			<string>05871560-C238-4DD5-AADF-90F723BF3DE7</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -57,7 +57,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configuration for MTL computers (v1.3)</string>
+	<string>Configuration for MTL computers (v1.4.1)</string>
 	<key>PayloadDisplayName</key>
 	<string>Tech Suite MTL</string>
 	<key>PayloadIdentifier</key>
@@ -69,7 +69,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>1690A23E-0F94-48CE-8252-8A724F8450B7</string>
+	<string>CEF72541-7ACF-4785-AD83-525138CD446B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>

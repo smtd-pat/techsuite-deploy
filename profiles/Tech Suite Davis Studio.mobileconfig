@@ -13,7 +13,7 @@
 				<string>https://smtd-pat.github.io/tech-suite-manual/#/davis-studio</string>
 			</dict>
 			<key>OverrideFirstRunPage</key>
-			<string>https://smtd-pat.github.io/tech-suite-manual/#/davis-studio|https://sites.google.com/umich.edu/pat/home</string>
+			<string>https://smtd-pat.github.io/tech-suite-manual/#/davis-studio|https://pat.smtd.umich.edu/</string>
 			<key>PayloadDisplayName</key>
 			<string>Firefox</string>
 			<key>PayloadIdentifier</key>
@@ -21,7 +21,7 @@
 			<key>PayloadType</key>
 			<string>org.mozilla.firefox</string>
 			<key>PayloadUUID</key>
-			<string>9F61ABC5-D36A-441D-B187-75541F073771</string>
+			<string>39C0D560-F8A1-421A-BF8F-BCAD03B417E7</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -57,7 +57,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configuration for Davis Studio computer (v1.3)</string>
+	<string>Configuration for Davis Studio computer (v1.4.1)</string>
 	<key>PayloadDisplayName</key>
 	<string>Tech Suite Edit Rooms</string>
 	<key>PayloadIdentifier</key>
@@ -69,7 +69,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>8D9CC6BA-DCEF-4223-8256-C735934AFD27</string>
+	<string>00374E8E-7E59-4C6D-8049-5AB252DCAC0B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>

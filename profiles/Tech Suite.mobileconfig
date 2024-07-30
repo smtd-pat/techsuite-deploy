@@ -182,13 +182,13 @@
 					<key>name</key>
 					<string>Tech Suite Wiki</string>
 					<key>url</key>
-					<string>https://sites.google.com/umich.edu/pat/home</string>
+					<string>https://pat.smtd.umich.edu/</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Helpdesk</string>
 					<key>url</key>
-					<string>https://sites.google.com/umich.edu/pat/helpdesk</string>
+					<string>https://pat.smtd.umich.edu/helpdesk</string>
 				</dict>
 			</array>
 			<key>PasswordManagerEnabled</key>
@@ -204,7 +204,7 @@
 			<key>PayloadType</key>
 			<string>com.google.Chrome</string>
 			<key>PayloadUUID</key>
-			<string>D678398F-E4C8-499A-B418-A0B1E9079880</string>
+			<string>80DAB017-A306-4F00-87A0-CF96C2EB89DE</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RemoteAccessHostAllowClientPairing</key>
@@ -285,7 +285,7 @@
 					<key>Title</key>
 					<string>Tech Suite Wiki</string>
 					<key>URL</key>
-					<string>https://sites.google.com/umich.edu/pat/home</string>
+					<string>https://pat.smtd.umich.edu/</string>
 				</dict>
 				<dict>
 					<key>Favicon</key>
@@ -297,7 +297,7 @@
 					<key>Title</key>
 					<string>Helpdesk</string>
 					<key>URL</key>
-					<string>https://sites.google.com/umich.edu/pat/helpdesk</string>
+					<string>https://pat.smtd.umich.edu/helpdesk</string>
 				</dict>
 			</array>
 			<key>DisableAppUpdate</key>
@@ -343,8 +343,6 @@
 			<dict>
 				<key>StartPage</key>
 				<string>homepage</string>
-				<key>URL</key>
-				<string>https://myumi.ch/smtd-techsuite</string>
 			</dict>
 			<key>OfferToSaveLoginsDefault</key>
 			<false/>
@@ -365,7 +363,7 @@
 			<key>PayloadType</key>
 			<string>org.mozilla.firefox</string>
 			<key>PayloadUUID</key>
-			<string>D2616DE9-AFB7-424A-B72B-70F70261B753</string>
+			<string>07A52E3F-1667-4FB2-AABC-18410AA0868E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>UserMessaging</key>
@@ -547,7 +545,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configuration for Tech Suite computers (v1.4)</string>
+	<string>Configuration for Tech Suite computers (v1.4.1)</string>
 	<key>PayloadDisplayName</key>
 	<string>Tech Suite</string>
 	<key>PayloadIdentifier</key>
@@ -559,7 +557,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>66A9E1AC-D8FB-4D01-BFA3-86188D80854E</string>
+	<string>A2347409-EFD5-4A1B-9883-CBA86605F9B8</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
