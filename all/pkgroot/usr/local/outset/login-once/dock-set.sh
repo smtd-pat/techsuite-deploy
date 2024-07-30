@@ -26,8 +26,8 @@ ${dockutil} --add '/Applications/Processing.app' --no-restart
 ${dockutil} --add '/Applications/zoom.us.app' --no-restart
 
 ${dockutil} --add '/System/Applications/Utilities/Audio MIDI Setup.app' --no-restart
-${dockutil} --add 'https://sites.google.com/umich.edu/pat/home' --label 'Tech Suite Wiki' --no-restart
-${dockutil} --add 'https://sites.google.com/umich.edu/pat/helpdesk' --label 'Tech Suite Helpdesk' --no-restart
+${dockutil} --add 'https://pat.smtd.umich.edu/' --label 'Tech Suite Wiki' --no-restart
+${dockutil} --add 'https://pat.smtd.umich.edu/helpdesk' --label 'Tech Suite Helpdesk' --no-restart
 
 if [[ -f "/usr/local/outset/extra/dock-set-custom.sh" ]]; then
     /usr/local/outset/extra/dock-set-custom.sh
