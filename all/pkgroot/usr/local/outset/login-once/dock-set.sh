@@ -14,7 +14,7 @@ ${dockutil} --add '/Applications/Spotify.app' --no-restart
 ${dockutil} --add '/System/Applications/QuickTime Player.app' --no-restart
 ${dockutil} --add '/Applications/VLC.app' --no-restart
 ${dockutil} --add '/Applications/Audacity.app' --no-restart
-${dockutil} --add '/Applications/Ableton Live 11 Suite.app' --no-restart
+${dockutil} --add '/Applications/Ableton Live 12 Suite.app' --no-restart
 ${dockutil} --add '/Applications/Logic Pro X.app' --no-restart
 ${dockutil} --add '/Applications/Pro Tools.app' --no-restart
 ${dockutil} --add '/Applications/Reaper.app' --no-restart
