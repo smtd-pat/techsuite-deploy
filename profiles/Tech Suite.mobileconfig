@@ -5,6 +5,8 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
+			<key>DontShowAdditionalContentDowload</key>
+			<true/>
 			<key>FeatureAvailable_ExpertAudio</key>
 			<true/>
 			<key>FeatureAvailable_ExpertCS</key>
@@ -29,8 +31,12 @@
 			<string>07967814-58BA-4E73-AD44-4E55DDA3E720</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>QuickHelpMode</key>
+			<integer>0</integer>
 			<key>RecentWhatsNewPanelVersion</key>
 			<integer>99</integer>
+			<key>startupAction</key>
+			<integer>6</integer>
 			<key>userLevel</key>
 			<integer>10</integer>
 		</dict>
@@ -128,8 +134,10 @@
 			<integer>1</integer>
 			<key>askForPassword</key>
 			<false/>
+			<key>askForPasswordDelay</key>
+			<integer>2147483647</integer>
 			<key>idleTime</key>
-			<integer>3600</integer>
+			<integer>0</integer>
 			<key>loginWindowIdleTime</key>
 			<integer>30</integer>
 			<key>loginWindowModulePath</key>
