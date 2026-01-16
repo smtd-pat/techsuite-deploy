@@ -132,10 +132,6 @@
 			<string>5A5097B6-AAEE-4BEF-9C9B-EAD9E470DADF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>askForPassword</key>
-			<false/>
-			<key>askForPasswordDelay</key>
-			<integer>2147483647</integer>
 			<key>idleTime</key>
 			<integer>0</integer>
 			<key>loginWindowIdleTime</key>
@@ -428,7 +424,7 @@
 			<key>magsize-immutable</key>
 			<false/>
 			<key>mineffect</key>
-			<string>Scale Effect</string>
+			<string>scale</string>
 			<key>mineffect-immutable</key>
 			<false/>
 			<key>position-immutable</key>
@@ -535,8 +531,6 @@
 				<integer>0</integer>
 				<key>System Sleep Timer</key>
 				<integer>0</integer>
-				<key>Wake On LAN</key>
-				<integer>1</integer>
 			</dict>
 			<key>com.apple.EnergySaver.desktop.Schedule</key>
 			<dict>
