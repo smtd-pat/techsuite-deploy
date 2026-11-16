@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preset version="3.0.0">
+    <name>Davis - Mac to 36.2</name>
+    <description>Dante Controller preset</description>
+    <device>
+        <captureInfo>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+        </captureInfo>
+        <name>MachineRoom-RedNet2-1</name>
+        <default_name>BKLYN-II-1f8310</default_name>
+        <instance_id>
+            <device_id>001DC11F83100000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>000000000000000C</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>12.2.0</model_version>
+        <model_version_string>12.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>01 - Ambisonic 01</name>
+            <subscribed_channel>03</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>02 - Ambisonic 02</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>03 - Ambisonic 03</name>
+            <subscribed_channel>05</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>04 - Ambisonic 04</name>
+            <subscribed_channel>06</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <name>05 - Ambisonic 05</name>
+            <subscribed_channel>07</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <name>06 - Ambisonic 06</name>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <name>07 - Ambisonic 07</name>
+            <subscribed_channel>09</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <name>08 - Ambisonic 08</name>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <name>09 - Ambisonic 09</name>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <name>10 - Ambisonic 10</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <name>11 - Ambisonic 11</name>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <name>12 - Ambisonic 12</name>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <name>13 - Ambisonic 13</name>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <name>14 - Ambisonic 14</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <name>15 - Ambisonic 15</name>
+            <subscribed_channel>17</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <name>16 - Ambisonic 16</name>
+            <subscribed_channel>18</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
+        <captureInfo>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+        </captureInfo>
+        <name>MachineRoom-RedNet2-2</name>
+        <default_name>BKLYN-II-0bd40e</default_name>
+        <instance_id>
+            <device_id>001DC10BD40E0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>000000000000000C</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>12.2.0</model_version>
+        <model_version_string>12.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>01 - Ambisonic 17</name>
+            <subscribed_channel>19</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>02 - Ambisonic 18</name>
+            <subscribed_channel>20</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>03 - Ambisonic 19</name>
+            <subscribed_channel>21</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>04 - Ambisonic 20</name>
+            <subscribed_channel>22</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <name>05 - Ambisonic 21</name>
+            <subscribed_channel>23</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <name>06 - Ambisonic 22</name>
+            <subscribed_channel>24</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <name>07 - Ambisonic 23</name>
+            <subscribed_channel>25</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <name>08 - Ambisonic 24</name>
+            <subscribed_channel>26</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <name>09 - Ambisonic 25</name>
+            <subscribed_channel>27</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <name>10 - Ambisonic 26</name>
+            <subscribed_channel>28</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <name>11 - Ambisonic 27</name>
+            <subscribed_channel>29</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <name>12 - Ambisonic 28</name>
+            <subscribed_channel>30</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <name>13 - Ambisonic 29</name>
+            <subscribed_channel>31</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <name>14 - Ambisonic 30</name>
+            <subscribed_channel>32</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <name>15 - Ambisonic 31</name>
+            <subscribed_channel>33</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <name>16 - Ambisonic 32</name>
+            <subscribed_channel>34</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
+        <captureInfo>
+            <rxchannel_names/>
+            <rxchannel_subscriptions/>
+        </captureInfo>
+        <name>MachineRoom-RedNet2-3</name>
+        <default_name>BKLYN-II-0f7788</default_name>
+        <instance_id>
+            <device_id>001DC10F77880000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>000000000000000C</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>12.2.0</model_version>
+        <model_version_string>12.2.dsf</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>01 - Ambisonic 33</name>
+            <subscribed_channel>35</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>02 - Ambisonic 34</name>
+            <subscribed_channel>36</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>03 - Ambisonic 35</name>
+            <subscribed_channel>37</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>04 - Ambisonic 36</name>
+            <subscribed_channel>38</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5" mediaType="audio">
+            <name>05 - Sub L</name>
+            <subscribed_channel>39</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6" mediaType="audio">
+            <name>06 - Sub R</name>
+            <subscribed_channel>40</subscribed_channel>
+            <subscribed_device>Davis-Digiface</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7" mediaType="audio">
+            <name>07</name>
+        </rxchannel>
+        <rxchannel danteId="8" mediaType="audio">
+            <name>08</name>
+        </rxchannel>
+        <rxchannel danteId="9" mediaType="audio">
+            <name>09</name>
+        </rxchannel>
+        <rxchannel danteId="10" mediaType="audio">
+            <name>10</name>
+        </rxchannel>
+        <rxchannel danteId="11" mediaType="audio">
+            <name>11</name>
+        </rxchannel>
+        <rxchannel danteId="12" mediaType="audio">
+            <name>12</name>
+        </rxchannel>
+        <rxchannel danteId="13" mediaType="audio">
+            <name>13</name>
+        </rxchannel>
+        <rxchannel danteId="14" mediaType="audio">
+            <name>14</name>
+        </rxchannel>
+        <rxchannel danteId="15" mediaType="audio">
+            <name>15</name>
+        </rxchannel>
+        <rxchannel danteId="16" mediaType="audio">
+            <name>16</name>
+        </rxchannel>
+    </device>
+</preset>
